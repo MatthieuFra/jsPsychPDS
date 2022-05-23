@@ -60,11 +60,19 @@ PARAMETRES */
    // If same array for all experiment. 
    var sounds = [
      'seq_liss.wav',
-     'seq_rough.wav',
-     'seq_var.wav',
-     'seq_rough.wav',
      'seq_liss.wav',
-     'seq_var.wav',
+     'seq_liss.wav',
+     'seq_liss.wav',
+     'seq_liss.wav',
+     'seq_liss.wav',
+     'seq_liss.wav',
+     'seq_devposition2.wav',
+     'seq_devposition3.wav',
+     'seq_devposition4.wav',
+     'seq_devposition5.wav',
+     'seq_devposition6.wav',
+     'seq_devposition7.wav',
+     'seq_devposition8.wav',
      ];
      
      
@@ -128,7 +136,7 @@ PARAMETRES */
      
    var itemNumber = null;
    var numbLoop = 2;        //3
-   var numbTrials = 6;      //3
+   var numbTrials = 4;      //3
    var numbItem = 9;        //9
    var timePause = 5000;
    var numbSoundsEval = 2;
@@ -1496,7 +1504,7 @@ var dataFreeText = {
         sex: `${sex}`,
         training: `${training}`,
         memorisation: `No`,
-        evalSlider: `Yes`,
+        evalSlider: `No`,
         remarque: `Yes`,
         resultRemarque: `${resultRemarque}`,
        }
