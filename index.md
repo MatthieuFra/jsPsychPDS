@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-<img class="fit-picture"
-     src="/assets/img/header.png"
-     alt="Logo equipe">
+<img src="/assets/img/header.png" alt="Logo equipe">
      
 # Tasks / Plugins
 {:.no_toc}
