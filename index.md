@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+<img class="fit-picture"
+     src="/assets/img/header.png"
+     alt="Logo equipe">
+     
 # Tasks / Plugins
 {:.no_toc}
 
@@ -12,7 +15,6 @@ TABLE OF CONTENTS
 
 <hr>
 
-PETIT TEST
 
 ## Reinforcement Learning Tasks
 
