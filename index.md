@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<img src="/assets/img/header.png" alt="Logo equipe">
+<img src="./assets/img/header.png" alt="Logo equipe">
 
 test
      
