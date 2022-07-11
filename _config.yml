@@ -1,6 +1,6 @@
-title: Minimal theme
+title: Perception & Deisgn Sonores jsPsych Toolkit
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+description: A repository to implement the new jsPsych architecture for the team and to show demo of the online paradigms used.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
