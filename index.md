@@ -12,6 +12,8 @@ TABLE OF CONTENTS
 
 <hr>
 
+PETIT TEST
+
 ## Reinforcement Learning Tasks
 
 ### Simple 2-arm bandit
