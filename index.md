@@ -3,6 +3,8 @@ layout: default
 ---
 <img src="./assets/img/header.png" alt="Logo equipe">
 
+
+<p style="margin-right: 140px; margin-bottom: 2px;"><a href="{{ site.baseurl }}/tutorials.html">Tutorials</a></p>
      
 # Tasks / Plugins
 {:.no_toc}
