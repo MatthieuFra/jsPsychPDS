@@ -1,4 +1,4 @@
-# jspsych-demos
+# PDS jspsych
 
 This repository contains jsPsych experiments and plugins developed by members (and friends) of the Perception and design sonores team. You can view [interactive demos](matthieufra.github.io/jspsychpds/) of each experiment/plugin or you can [inspect the code](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team) directly.
 
