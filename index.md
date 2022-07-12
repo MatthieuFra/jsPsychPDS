@@ -120,13 +120,15 @@ TABLE OF CONTENTS
 
 ### Psychoacoustics plugin
 
-([<b>[Original website]</b>](https://jspsychophysics.hes.kyushu-u.ac.jp/))
+([<b>[Original website]</b>](https://jspsychophysics.hes.kyushu-u.ac.jp/)) [<b>[GitHub]</b>](https://github.com/kurokida/jspsych-psychophysics)
 
 > The jspsych-psychophysics plugin is developed for conducting online/Web-based psychophysical experiments using jsPsych. [(Kuroki, 2021)]([https://www.jspsych.org/plugins/jspsych-survey-likert/](https://link.springer.com/article/10.3758/s13428-020-01445-w))
 
 
+
 ### Audio tokens plugin
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/screen-check/experiment.html?min_width=12000&min_height=8000)
+([<b>[Original website]</b>](https://psyarxiv.com/3j58q/)) [<b>[GitHub]</b>](github.com/pwdonh/audio_tokens)
 
-> Plugin to verify that a participant's browser window meets a minimal screen resolution.
+> A Javascript toolbox to perform online rating studies with auditory material. The main feature of the toolbox is that audio samples are associated with visual tokens on the screen that control audio playback and can be manipulated depending on the type of rating. This allows the collection of single- and multi-dimensional feature ratings, as well as categorical and similarity ratings.  [(Donhauser & Klein, 2021)](https://psyarxiv.com/3j58q/)
+
