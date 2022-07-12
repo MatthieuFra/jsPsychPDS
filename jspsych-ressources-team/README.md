@@ -1,4 +1,4 @@
-# PDS jspsych
+# jspsych ressources for PDS
 
 This depository contains all of the available tasks and ressources that can be useful for the PDS team.
 
