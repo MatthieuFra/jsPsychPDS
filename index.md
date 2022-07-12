@@ -120,7 +120,7 @@ TABLE OF CONTENTS
 
 ### Psychoacoustics plugin
 
-[<b>[Original website]</b>][(ADD URL](https://jspsychophysics.hes.kyushu-u.ac.jp/)) [<b>[Demo]</b>](./tasks/screen-check/experiment.html?min_width=12000&min_height=8000)
+[<b>[Original website]</b>]([ADD URL](https://jspsychophysics.hes.kyushu-u.ac.jp/))
 
 > The jspsych-psychophysics plugin is developed for conducting online/Web-based psychophysical experiments using jsPsych. [(Kuroki, 2021)]([https://www.jspsych.org/plugins/jspsych-survey-likert/](https://link.springer.com/article/10.3758/s13428-020-01445-w))
 
