@@ -113,3 +113,19 @@ TABLE OF CONTENTS
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/screen-check/experiment.html?min_width=12000&min_height=8000)
 
 > Plugin to verify that a participant's browser window meets a minimal screen resolution.
+
+<hr>
+
+## Other ressources
+
+### Psychoacoustics plugin
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/screen-check/experiment.html?min_width=12000&min_height=8000)
+
+> Plugin to verify that a participant's browser window meets a minimal screen resolution.
+
+### Audio tokens plugin
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/screen-check/experiment.html?min_width=12000&min_height=8000)
+
+> Plugin to verify that a participant's browser window meets a minimal screen resolution.
