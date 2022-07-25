@@ -109,8 +109,6 @@ TABLE OF CONTENTS
 
 <i style="font-size: 80%">Robertson, I.H., Manly, T., Andrade, J., Baddeley, B.T., Yiend, J. (1997). 'Oops!': performance correlates of everyday attentional failures in traumatic brain injured and normal subjects. Neuropsychologia, 35(6), 747-758.</i>
 
-> A web-friendly implementation of the matrix reasoning item bank ([Chierchia et al. 2019](https://doi.org/10.1098/rsos.190232)). All materials were retrieved from the project's [OSF repository](https://osf.io/g96f4/) and the task design was modeled after the [Gorilla version](https://app.gorilla.sc/openmaterials/36164).
-
 ### Irrelevant Sound Effect (ISE)
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/spatial-recall/experiment.html)
