@@ -113,7 +113,7 @@ TABLE OF CONTENTS
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/spatial-recall/experiment.html)
 
-> In the Paced Visual Serial Addition Test, participant has to add the last digit presented to the preceding digit which presented on the screen of the computer then click on the answer. This is a jsPsych implementation of the task initially described by [(Hamidi & Rohi, 2011)](https://www.sciencedirect.com/science/article/pii/S1877050910003996). 
+> A jsPsych implementation of a task to test sounds to disrupts immediate serial-recall, for attentional capture effect.
 
 ### Paced Visual Serial Addition Task
 
@@ -129,49 +129,65 @@ TABLE OF CONTENTS
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/self-report/experiment.html?plugin=survey)
 
-> The survey-template plugin is an extension of the jsPsych [survey-likert](https://www.jspsych.org/plugins/jspsych-survey-likert/) plugin. It displays a set of questions with Likert scale responses. For a full description of the plugin, please see the [docs page](https://github.com/nivlab/jspsych-demos/tree/main/tasks/self-report#jspsych-survey-template).
->
-> For a list of questionnaires already formatted for use with the survey-template plugin, please see [docs page](https://github.com/nivlab/jspsych-demos/tree/main/tasks/self-report).  
+> This self-report survey is used to know witch wich sound system participants are listening the sound. The answer is saved to data, it can also be a criteria to be able to pass the experiment.
 
 ### Demographics informations
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/self-report/experiment.html?plugin=survey)
 
-> The survey-template plugin is an extension of the jsPsych [survey-likert](https://www.jspsych.org/plugins/jspsych-survey-likert/) plugin. It displays a set of questions with Likert scale responses. For a full description of the plugin, please see the [docs page](https://github.com/nivlab/jspsych-demos/tree/main/tasks/self-report#jspsych-survey-template).
+> Classic survey to get Demographics informations.
 
 <hr>
 
 ## Utilities
 
+### Introduction & instructions
+
+[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+
+> This code-template is to be used to design experiment within the team. It contain the visual chart used and the structure of instructions commonly used.
+
+### Random subjet number generator 
+
+[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+
+> This code is using the <i>Call function</i> plugin to generate a random subjet number wich is saved in every row of data.
+
 ### Consent forms
 
 [<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
 
-> The consent forms for online experiments in the Niv & Daw labs.
+> The consent forms for online experiments in the PDS team and STMS lab.
+
+<hr>
+
+## Audio utilities 
+
+### Sonic egalisation
+
+[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+
+> A task designed to egalise sonic between stimuli before making an perceptual evaluation.
 
 ### Audio test Headphones
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/audio-test/experiment.html)
 
-> Plugin for playing an audio file, getting a text response, and verifying that it is correct made by playing with jspsych template plugins.
+> An implementation in jsPsych of a way to check if the participant is wearing an headphone.
+Listeners judge which of three pure tones is quietest, with one of the tones presented 180° out of phase across the stereo channels. This task is intended to be easy over headphones but difficult over loudspeakers due to phase-cancellation
+Adapted from [(Woods, 2017)](https://link.springer.com/article/10.3758/s13414-017-1361-2).
 
 ### Audio test Loudness
 
 [<b>[Niv Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
 
-> The consent forms for online experiments in the Niv & Daw labs.
+> Small experimental block to made participants listening to a pink noise and adjuste their hearing volume to be confortable.
 
 ### Audio test Frequencies
 
 [<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
 
-> The consent forms for online experiments in the Niv & Daw labs.
-
-### Screen check
-
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/screen-check/experiment.html?min_width=12000&min_height=8000)
-
-> Plugin to verify that a participant's browser window meets a minimal screen resolution.
+> A task designed to get a rough idea of the frequency range that each participant is able to hear.
 
 <hr>
 
