@@ -28,3 +28,10 @@ How can I use the Construction Toolkit to design my experiment ?
 ADD
 
 [back](./)
+
+## From where does all of this come from ? 
+
+For more details about the implentation of the jsPsych library into the team, the choices etc. 
+You can read this document, wich is a report of the mission performed in 2022 at PDS : 
+
+ <p style="margin-right: 140px; margin-bottom: 2px;"><a href="{{ site.baseurl }}/pdf/jsPsych_PDS.pdf" target="_blank">Matthieu Résumé (pdf)</a></p>
