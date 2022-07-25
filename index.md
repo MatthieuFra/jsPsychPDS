@@ -31,7 +31,7 @@ TABLE OF CONTENTS
 
 ### Continuous audio evaluation
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/prospect/experiment.html)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > A jsPsych implementation of prospect theory gambles using icon arrays ([Banchilon et al. 2019](http://arxiv.org/abs/1910.09725)).
 
@@ -39,7 +39,7 @@ TABLE OF CONTENTS
 
 ### Identification and categorization
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/prospect/experiment.html)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > A jsPsych implementation of prospect theory gambles using icon arrays ([Banchilon et al. 2019](http://arxiv.org/abs/1910.09725)).
 
@@ -97,13 +97,13 @@ TABLE OF CONTENTS
 
 ### Best-Worth scaling (BWS)
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/rpm/experiment.html?tf=a)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > The abbreviated 9-item Raven's standard progressive matrices. Both Forms A and B of [Bilker et al. (2012)](https://doi.org/10.1177%2F1073191112446655) are available.
 
 ### Sustain Attention Reaction Task (SART)
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/mars/experiment.html)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > An implementation of the SART Task described [HERE](https://www.psytoolkit.org/experiment-library/sart.html#refs) and originally designed by Robertson and colleagues in 1997 (Robertson, Andrade, Baddeley, Yiend)
 
@@ -111,13 +111,13 @@ TABLE OF CONTENTS
 
 ### Irrelevant Sound Effect (ISE)
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/spatial-recall/experiment.html)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > A jsPsych implementation of a task to test sounds to disrupts immediate serial-recall, for attentional capture effect.
 
 ### Paced Visual Serial Addition Task
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/symmetry_span/experiment.html)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > In the Paced Visual Serial Addition Test, participant has to add the last digit presented to the preceding digit which presented on the screen of the computer then click on the answer. This is a jsPsych implementation of the task initially described by [(Hamidi & Rohi, 2011)](https://www.sciencedirect.com/science/article/pii/S1877050910003996). 
 
@@ -127,13 +127,13 @@ TABLE OF CONTENTS
 
 ### Sound system used
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/self-report/experiment.html?plugin=survey)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > This self-report survey is used to know witch wich sound system participants are listening the sound. The answer is saved to data, it can also be a criteria to be able to pass the experiment.
 
 ### Demographics informations
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/self-report/experiment.html?plugin=survey)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > Classic survey to get Demographics informations.
 
@@ -143,19 +143,19 @@ TABLE OF CONTENTS
 
 ### Introduction & instructions
 
-[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > This code-template is to be used to design experiment within the team. It contain the visual chart used and the structure of instructions commonly used.
 
 ### Random subjet number generator 
 
-[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > This code is using the <i>Call function</i> plugin to generate a random subjet number wich is saved in every row of data.
 
 ### Consent forms
 
-[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > The consent forms for online experiments in the PDS team and STMS lab.
 
@@ -165,13 +165,13 @@ TABLE OF CONTENTS
 
 ### Sonic egalisation
 
-[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > A task designed to egalise sonic between stimuli before making an perceptual evaluation.
 
 ### Audio test Headphones
 
-[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/audio-test/experiment.html)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > An implementation in jsPsych of a way to check if the participant is wearing an headphone.
 Listeners judge which of three pure tones is quietest, with one of the tones presented 180° out of phase across the stereo channels. This task is intended to be easy over headphones but difficult over loudspeakers due to phase-cancellation
@@ -179,13 +179,13 @@ Adapted from [(Woods, 2017)](https://link.springer.com/article/10.3758/s13414-01
 
 ### Audio test Loudness
 
-[<b>[Niv Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > Small experimental block to made participants listening to a pink noise and adjuste their hearing volume to be confortable.
 
 ### Audio test Frequencies
 
-[<b>[Niv Lab]</b>](ADD URL) [<b>[Daw Lab]</b>](https://github.com/nivlab/jspsych-demos/tree/main/tasks/consent/)
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
 
 > A task designed to get a rough idea of the frequency range that each participant is able to hear.
 
