@@ -33,7 +33,7 @@ TABLE OF CONTENTS
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/continuous-evaluation) [<b>[Demo]</b>](#)
 
-> A jsPsych implementation of prospect theory gambles using icon arrays ([Banchilon et al. 2019](http://arxiv.org/abs/1910.09725)).
+> TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
@@ -41,7 +41,7 @@ TABLE OF CONTENTS
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/identification-categorization) [<b>[Demo]</b>](#)
 
-> A jsPsych implementation of prospect theory gambles using icon arrays ([Banchilon et al. 2019](http://arxiv.org/abs/1910.09725)).
+> TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
