@@ -27,11 +27,69 @@ TABLE OF CONTENTS
 
 ## Classicals paradigms for audio evaluation
 
+<i>Partly based on Sonic Interaction Design (Franovic & Serafin, 2012) especially Chapter 5 <b>Perceptual evalutation of sound-producing objects</b> (Giordano, Susini, Bresin)</i>
+
 ### Continuous audio evaluation
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/prospect/experiment.html)
 
 > A jsPsych implementation of prospect theory gambles using icon arrays ([Banchilon et al. 2019](http://arxiv.org/abs/1910.09725)).
+
+<hr>
+
+### Identification and categorization
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/prospect/experiment.html)
+
+> A jsPsych implementation of prospect theory gambles using icon arrays ([Banchilon et al. 2019](http://arxiv.org/abs/1910.09725)).
+
+<hr>
+
+### Scaling and rating
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
+
+<hr>
+
+### Dissimilarity estimation
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
+
+<hr>
+
+### Sorting
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
+
+<hr>
+
+### Verbalization
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
+
+<hr>
+
+### Semantic differential
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
+
+<hr>
+
+### Preference estimation
+
+[<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](#)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
