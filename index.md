@@ -115,14 +115,13 @@ TABLE OF CONTENTS
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/spatial-recall/experiment.html)
 
-> A simple plugin for a forwards/backwards spatial recall task. Includes three scoring rules (absolute, partial credit, longest sequence).
+> In the Paced Visual Serial Addition Test, participant has to add the last digit presented to the preceding digit which presented on the screen of the computer then click on the answer. This is a jsPsych implementation of the task initially described by [(Hamidi & Rohi, 2011)](https://www.sciencedirect.com/science/article/pii/S1877050910003996). 
 
 ### Paced Visual Serial Addition Task
 
 [<b>[Code]</b>](ADD URL) [<b>[Demo]</b>](./tasks/symmetry_span/experiment.html)
 
-> A jsPsych implementation of the symmetry span test ([Unsworth et al. 2005](https://doi.org/10.3758/BF03192720)), adapted from [Mahi Luthra](https://github.com/mahiluthra/working_memory_tests).
-
+> In the Paced Visual Serial Addition Test, participant has to add the last digit presented to the preceding digit which presented on the screen of the computer then click on the answer. This is a jsPsych implementation of the task initially described by [(Hamidi & Rohi, 2011)](https://www.sciencedirect.com/science/article/pii/S1877050910003996). 
 
 <hr>
 
