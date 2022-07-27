@@ -189,6 +189,14 @@ Adapted from [(Woods, 2017)](https://link.springer.com/article/10.3758/s13414-01
 
 > A task designed to get a rough idea of the frequency range that each participant is able to hear.
 
+### Audio test Stereo
+
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/audio-test-stereo) [<b>[Demo]</b>](./demos-tasks/audio-test-stereo/experiment-demo.html)
+
+> A quick test to check if participant can hear in stereo and if headphones left and right side are correctly playing.
+
+
+
 <hr>
 
 ## Other ressources
