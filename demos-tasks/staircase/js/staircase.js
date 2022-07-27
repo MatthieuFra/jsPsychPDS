@@ -237,3 +237,4 @@
 
   }
   
+timeline.push(loopTaskB);
