@@ -293,7 +293,7 @@ var targetAvoid = {
    var taskB = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function(){
-      return '<img src="0_NOIR.png" width="100" height="100" />'//'<p style="font-size:80px; color:black;">X</p>'
+      return '<img src="img/0_NOIR.png" width="100" height="100" />'//'<p style="font-size:80px; color:black;">X</p>'
     },
     post_trial_gap: 0,
     trial_duration: function(){ // value in ms
@@ -342,13 +342,13 @@ var targetAvoid = {
     },
     stimulus: function(){
         if(subjectResponse === false  && isTarget === true){
-         return '<img src="0_VERT.png" width="100" height="100" />'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p><p style="font-size:30px; color:green;">Bien vu !</p>'
+         return '<img src="img/0_VERT.png" width="100" height="100" />'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p><p style="font-size:30px; color:green;">Bien vu !</p>'
       } else if(subjectResponse === true && isTarget === false){
-         return '<img src="0_VERT.png" width="100" height="100" />'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p>'
+         return '<img src="img/0_VERT.png" width="100" height="100" />'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p>'
       } else if(subjectResponse === true && isTarget === true){
-         return '<img src="0_ROUGE.png" width="100" height="100" />'//'<p style="font-size:30px; color:red;"><b>Mauvaise réponse...</b></p>'
+         return '<img src="img/0_ROUGE.png" width="100" height="100" />'//'<p style="font-size:30px; color:red;"><b>Mauvaise réponse...</b></p>'
       } else if(subjectResponse === false){
-        return '<img src="0_NOIR.png" width="100" height="100" />'//'<p style="font-size:30px; color:black;">Trop lent..</p>'
+        return '<img src="img/0_NOIR.png" width="100" height="100" />'//'<p style="font-size:30px; color:black;">Trop lent..</p>'
       }
     },
     post_trial_gap: 500,
@@ -393,13 +393,13 @@ var taskCbis = {
     },
     stimulus: function(){
         if(subjectResponse === false  && isTarget === true){
-         return '<img src="0_VERT.png" width="100" height="100" /><p><b>Bien vu !</b></p>'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p><p style="font-size:30px; color:green;">Bien vu !</p>'
+         return '<img src="img/0_VERT.png" width="100" height="100" /><p><b>Bien vu !</b></p>'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p><p style="font-size:30px; color:green;">Bien vu !</p>'
       } else if(subjectResponse === true && isTarget === false){
-         return '<img src="0_VERT.png" width="100" height="100" /><p><b>Bonne réponse!</b></p>'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p>'
+         return '<img src="img/0_VERT.png" width="100" height="100" /><p><b>Bonne réponse!</b></p>'//'<p style="font-size:30px; color:green;"><b>Bonne réponse !</b></p>'
       } else if(subjectResponse === true && isTarget === true){
-         return '<img src="0_ROUGE.png" width="100" height="100" /><p><b>Ne pas appuyer pour la cible !</b></p>'//'<p style="font-size:30px; color:red;"><b>Mauvaise réponse...</b></p>'
+         return '<img src="img/0_ROUGE.png" width="100" height="100" /><p><b>Ne pas appuyer pour la cible !</b></p>'//'<p style="font-size:30px; color:red;"><b>Mauvaise réponse...</b></p>'
       } else if(subjectResponse === false){
-        return '<img src="0_NOIR.png" width="100" height="100" /><p><b>Trop lent !</b></p>'//'<p style="font-size:30px; color:black;">Trop lent..</p>'
+        return '<img src="img/0_NOIR.png" width="100" height="100" /><p><b>Trop lent !</b></p>'//'<p style="font-size:30px; color:black;">Trop lent..</p>'
       }
     },
     post_trial_gap: 500,
