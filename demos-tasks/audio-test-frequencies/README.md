@@ -1,5 +1,5 @@
-# PDS demos tasks
+## Audio test frequencies
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
+A task designed to get a rough idea of the frequency range that each participant is able to hear.
 
 
