@@ -1,5 +1,4 @@
-# PDS demos tasks
+## Sound system used
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
-
+This self-report survey is used to know witch wich sound system participants are listening the sound. The answer is saved to data, it can also be a criteria to be able to pass the experiment.
 
