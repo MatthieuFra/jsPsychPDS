@@ -1,5 +1,4 @@
-# PDS demos tasks
-
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
-
+ ## Introduction & Instructions 
+ 
+ This code-template is to be used to design experiment within the team. It contain the visual chart used and the structure of instructions commonly used.
 
