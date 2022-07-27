@@ -1,5 +1,5 @@
-# PDS demos tasks
+# Staircase
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
+A variation of the method of limits in which stimuli are presented in ascending and descending order. When the observer’s response changes, the direction of the stimulus sequence is reversed. Differents methods of changing the stimuli can be used.
 
 
