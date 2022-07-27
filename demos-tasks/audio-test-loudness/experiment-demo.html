@@ -9,6 +9,7 @@
   <!-- Load jsPsych plug-ins -->
   <script src="../../lib/jspsych-7.3.0/dist/plugin-html-button-response.js" type="text/javascript"></script>
   <script src="../../lib/jspsych-7.3.0/dist/plugin-html-keyboard-response.js" type="text/javascript"></script>
+  <script src="../../lib/jspsych-7.3.0/dist/plugin-audio-button-response.js" type="text/javascript"></script>
 
   <!-- Load CSS styles -->
   <link href="../../lib/jspsych-7.3.0/dist/jspsych.css" rel="stylesheet" type="text/css"></link>
@@ -57,7 +58,20 @@ var timeline = [];
     
     timeline.push(startDemo);
 	
-	
+
+
+var audioTestLoudness = {
+    type: jsPsychAudioButtonResponse,
+    stimulus: 'sound/bruitrose.wav',
+    choices: ['Continuer'],
+    response_allowed_while_playing: true,
+    prompt: ` <p>Réglez le volume de votre casque de façon confortable.<p>
+<p>Vous devez entendre clairement le son, et il ne doit être ni trop <strong>fort</strong> ni trop <strong>faible</strong>.</p>
+<p>Une fois le niveau réglé, veuillez ne plus le modifier jusqu'à la fin de l'expérience.</p>
+`
+};
+
+timeline.push(audioTestLoudness);	
 	
 	
 	
