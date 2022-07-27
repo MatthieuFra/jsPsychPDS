@@ -1,5 +1,5 @@
-# PDS demos tasks
+## Paced Visual Serial Addition Task
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
+In the Paced Visual Serial Addition Test, participant has to add the last digit presented to the preceding digit which presented on the screen of the computer then click on the answer. This is a jsPsych implementation of the task initially described by [(Hamidi & Rohi, 2011)](https://www.sciencedirect.com/science/article/pii/S1877050910003996). 
 
 
