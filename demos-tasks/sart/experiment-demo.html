@@ -138,7 +138,7 @@ var targetAvoid = {
     var startTask22 = {
       
       type: jsPsychHtmlButtonResponse,
-      stimulus: `<p style="font-size:25px; color:black;">Lancement Partie 2</p><hr>
+      stimulus: `<p style="font-size:25px; color:black;">Lancement SART</p><hr>
                  <p>Veuillez cliquer sur <strong>continuer</strong> pour débuter la tache.</p><p></p>`,
       choices: ['Continuer'],
        on_finish: function(){
@@ -670,6 +670,7 @@ var resultsTraining1 = {
     timeline: [
       targetAvoid,
       startTask22, 
+      weightTarget,
       loopTask1,
       resultsTraining1,
       afterLoop1,
