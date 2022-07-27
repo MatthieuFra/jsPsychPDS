@@ -1,5 +1,5 @@
-# PDS demos tasks
+## Audio test loudness
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
+Small experimental block to made participants listening to a pink noise and adjuste their hearing volume to be confortable.
 
 
