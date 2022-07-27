@@ -1,6 +1,6 @@
 var audioTestLoudness = {
     type: jsPsychAudioButtonResponse,
-    stimulus: 'sound/bruitrose.wav',
+    stimulus: 'audio/bruitrose.wav',
     choices: ['Continuer'],
     response_allowed_while_playing: true,
     prompt: ` <p>Réglez le volume de votre casque de façon confortable.<p>
