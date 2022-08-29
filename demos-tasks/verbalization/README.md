@@ -1,5 +1,3 @@
-# PDS demos tasks
+# Verbalization 
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
-
-
+Verbalization tasks can be used to explore qualitatively the perceptually-relevant attributes of sound-interactive events: do users focus on the characteristic of the sound signal, on the characteristic of the source or on more abstract symbolic contents associated with the sound event ? Verbalization can be free, or constrained.
