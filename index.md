@@ -124,8 +124,6 @@ sound signal, on the characteristic of the source or on more abstract symbolic c
 with the sound event ? 
 Verbalization can be free, or constrained.
 
-TO ADD / NOT CURRENTLY AVAILABLE
-
 <hr>
 
 ### Semantic differential
