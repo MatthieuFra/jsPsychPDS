@@ -17,8 +17,7 @@ TABLE OF CONTENTS
 
 ## Psychoacoustic tasks
 
-> Psychophysics studies the mapping from physical attributes of the stimuli (e.g.,
-sound level), to attributes of the corresponding sensations (e.g., loudness). 
+Psychophysics studies the mapping from physical attributes of the stimuli (e.g. sound level), to attributes of the corresponding sensations (e.g., loudness). 
 Classical psychophysical methods are often concerned with the measurement of two sensory quantities: the absolute
 threshold, i.e., the smallest or highest detectable value of a stimulus attribute, and the differential threshold, i.e., the smallest dis-
 criminable difference in a stimulus attribute.
