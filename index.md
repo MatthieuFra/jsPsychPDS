@@ -56,7 +56,26 @@ TO ADD / NOT CURRENTLY AVAILABLE
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/scaling-rating) [<b>[Demo]</b>](./demos-tasks/scaling-rating/experiment-demo.html)
 
-> TO ADD / NOT CURRENTLY AVAILABLE
+> Scaling methods allow to measure the psychophysical function, i.e., the function
+that relates physical attributes of the stimuli to sensory continua (e.g., sound level
+and perceived loudness)2. We can distinguish between two families of scaling methods:
+partition and ratio scaling.
+In a partition scaling experiment, participants are asked to divide a target physical
+dimension in perceptually equivalent intervals. 
+The methods of ratio scaling and magnitude scaling produce a mapping from the
+sensory continuum to a numeric continuum. 
+In a ratio estimation task, participants estimate numerically the ratio between the sensory magnitude of two stimuli. 
+In a ratio production task, participants adjust the physical properties of a stimulus so that the ratio of its sensory
+magnitude to that of a reference stimulus equals a prespecified number. 
+With magnitude estimation, participants assign a number to the sensory magnitude of the first presented stimulus, and estimate numerically the sensory magnitude of subsequent stimuli based on the number assigned to the first stimulus. 
+With magnitude production, the sensory magnitude for a reference stimulus is assigned a numerical value, and the participant is asked to
+manipulate the physical properties of a new stimulus so that its sensory magnitude
+equals a given number. 
+The rating method can be conceived as a variant of the magnitude estimation
+method : participants estimate the sensory magnitude by choosing an
+integer number within a prespecified range. 
+
+TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
