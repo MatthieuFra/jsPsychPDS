@@ -11,12 +11,12 @@ var sounds = [
   ];
   
 var questions = [
-  {`QUESTION 1`, rows: 3,required: true}
-  {`QUESTION 2`, rows: 3,required: true}
-  {`QUESTION 3`, rows: 3,required: true}
-  {`QUESTION 4`, rows: 3,required: true}
-  {`QUESTION 5`, rows: 3,required: true}
-  {`QUESTION 6`, rows: 3,required: true}
+  {"QUESTION 1", rows: 3,required: true},
+  {"QUESTION 2", rows: 3,required: true},
+  {"QUESTION 3", rows: 3,required: true},
+  {"QUESTION 4", rows: 3,required: true},
+  {"QUESTION 5", rows: 3,required: true},
+  {"QUESTION 6", rows: 3,required: true},
 ];
 
         /* preload sounds */
