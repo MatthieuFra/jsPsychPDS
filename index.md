@@ -140,8 +140,6 @@ former.
 In the most popular variant of the semantic differential method, participants rate each stimulus along several bipolar scales defined by opposing semantic descriptors. 
 Each bipolar scale is usually divided in an odd number of intervals (e.g., seven). 
 
-TO ADD / NOT CURRENTLY AVAILABLE
-
 <hr>
 
 ### Preference estimation
