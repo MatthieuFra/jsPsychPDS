@@ -24,7 +24,7 @@ criminable difference in a stimulus attribute.
 
 ### Staircase method
 
-[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/staircase) [<b>[Demo]</b>](./demos-tasks/staircase/experiment-demo.html)
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/staircase) [<b>[Demo]</b>](./demos-tasks/staircase/experiment-demo.html){:target="_blank"}
 
 > A variation of the method of limits in which stimuli are presented in ascending and descending order. When the observer’s response changes, the direction of the stimulus sequence is reversed. Differents methods of changing the stimuli can be used. 
 
