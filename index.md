@@ -173,7 +173,12 @@ TO ADD / NOT CURRENTLY AVAILABLE
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/continuous-evaluation) [<b>[Demo]</b>](./demos-tasks/continuous-evaluation/experiment-demo.html)
 
-> TO ADD / NOT CURRENTLY AVAILABLE
+> Participants in a continuous evaluation experiment are asked to repeatedly judge
+some perceptual/cognitive attribute as the stimulus unfolds in time (e.g., a musical
+composition or a soundscape).
+This jsPsych implementation use keyboards responses that can be pressed during the listening of the stimulus.
+
+TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
