@@ -246,6 +246,21 @@ Survey respondents are shown a subset of items from a master list and are asked 
 
 > This code is using the <i>Call function</i> plugin to generate a random subjet number wich is saved in every row of data.
 
+
+### Pairs generator 
+
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/pairs-generator) [<b>[Demo]</b>](./demos-tasks/pairs-generator/experiment-demo.html)
+
+> The pairs generator is a useful module implemented in jsPsych in order to create from an Array Q with n elements, an other Array Q' with all the possible pairs between Q elements, without mutations ([a, b] and [b, a] are considered the same, and there's no [a, a]). 
+  It's coded using ES6 syntax and it's used by all the experiments that need pairs and to perform permutations with stimuli.
+
+<i>
+Example :
+Q = ['a', 'b', 'c', 'd', 'e'];
+
+Q' = [[['a','b'], ['a','c'], ['a','d'],['a','e'],['b','c'],['b','d'],['b','e'],['c','d'],['c','e'],['d','e']];
+</i>
+
 ### Consent forms
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/consent-form) [<b>[Demo]</b>](./demos-tasks/consent-form/experiment-demo.html)
