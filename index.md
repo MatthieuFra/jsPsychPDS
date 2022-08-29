@@ -146,9 +146,23 @@ TO ADD / NOT CURRENTLY AVAILABLE
 
 ### Preference estimation
 
+<b>Paired preference comparison task</b>
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
-> TO ADD / NOT CURRENTLY AVAILABLE
+<b>Preference ranking task</b>
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
+
+<b>Preference ratings</b>
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
+
+> Preference data can be collected with various experimental methods: 
+In a paired preference comparison task, participants are presented with all the possible pairs of stimuli, one at a time,
+and are asked to choose which of the two they prefer. 
+In a preference ranking task, participants are presented with all of the stimuli at once, and are asked to arrange
+them from the least to the most preferred. 
+With preference ratings, participants rate their preference for each of the stimuli on a categorical or continuous scale 
+
+TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
