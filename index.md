@@ -235,6 +235,13 @@ Survey respondents are shown a subset of items from a master list and are asked 
 
 > This code-template is to be used to design experiment within the team. It contain the visual chart used and the structure of instructions commonly used.
 
+### Ending experiment
+
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/end-experiment) [<b>[Demo]</b>](./demos-tasks/end-experiment/experiment-demo.html)
+
+> This code-template is to be used to design experiment within the team. It contain the visual chart used and the structure of instructions commonly use for the end of the experiments. It contain a survey text and a mail to contact the researcher if needed. 
+
+
 ### Random subjet number generator 
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/random-subject-generator) [<b>[Demo]</b>](./demos-tasks/random-subject-generator/experiment-demo.html)
