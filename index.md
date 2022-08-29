@@ -142,15 +142,15 @@ Each bipolar scale is usually divided in an odd number of intervals (e.g., seven
 
 ### Preference estimation
 
-<b>Paired preference comparison task</b>
+<b><i>Paired preference comparison task</i></b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
-<b>Preference ranking task</b>
+<b><i>Preference ranking task</i></b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
-<b>Preference ratings</b>
+<b><i>Preference ratings</i></b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
