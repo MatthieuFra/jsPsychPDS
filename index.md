@@ -17,6 +17,12 @@ TABLE OF CONTENTS
 
 ## Psychoacoustic tasks
 
+> Psychophysics studies the mapping from physical attributes of the stimuli (e.g.,
+sound level), to attributes of the corresponding sensations (e.g., loudness). 
+Classical psychophysical methods are often concerned with the measurement of two sensory quantities: the absolute
+threshold, i.e., the smallest or highest detectable value of a stimulus attribute, and the differential threshold, i.e., the smallest dis-
+criminable difference in a stimulus attribute.
+
 ### Staircase method
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/staircase) [<b>[Demo]</b>](./demos-tasks/staircase/experiment-demo.html)
@@ -29,13 +35,6 @@ TABLE OF CONTENTS
 
 <i>Partly based on Sonic Interaction Design (Franovic & Serafin, 2012) especially Chapter 5 <b>Perceptual evalutation of sound-producing objects</b> (Giordano, Susini, Bresin)</i>
 
-### Continuous audio evaluation
-
-[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/continuous-evaluation) [<b>[Demo]</b>](./demos-tasks/continuous-evaluation/experiment-demo.html)
-
-> TO ADD / NOT CURRENTLY AVAILABLE
-
-<hr>
 
 ### Identification and categorization
 
@@ -88,6 +87,14 @@ TABLE OF CONTENTS
 ### Preference estimation
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
+
+> TO ADD / NOT CURRENTLY AVAILABLE
+
+<hr>
+
+### Continuous audio evaluation
+
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/continuous-evaluation) [<b>[Demo]</b>](./demos-tasks/continuous-evaluation/experiment-demo.html)
 
 > TO ADD / NOT CURRENTLY AVAILABLE
 
