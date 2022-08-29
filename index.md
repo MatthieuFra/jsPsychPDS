@@ -161,7 +161,7 @@ In a paired preference comparison task, participants are presented with all the 
 and are asked to choose which of the two they prefer. 
 In a preference ranking task, participants are presented with all of the stimuli at once, and are asked to arrange
 them from the least to the most preferred. 
-With preference ratings, participants rate their preference for each of the stimuli on a categorical or continuous scale 
+With preference ratings, participants rate their preference for each of the stimuli on a categorical or continuous scale .
 
 TO ADD / NOT CURRENTLY AVAILABLE
 
