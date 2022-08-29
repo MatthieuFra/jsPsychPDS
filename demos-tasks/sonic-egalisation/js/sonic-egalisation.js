@@ -114,7 +114,6 @@ var dataSlider = {
     data: function(){ 
       return {
       task: 'REPONSE SUJET',
-      id: uniqueID,
       date: Date(Date.now()).toLocaleString().split(',')[0],
       sound: soundEval[q],
       evalResult: `${resultSlider}`,
