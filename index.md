@@ -118,7 +118,13 @@ TO ADD / NOT CURRENTLY AVAILABLE
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/verbalization) [<b>[Demo]</b>](./demos-tasks/verbalization/experiment-demo.html)
 
-> TO ADD / NOT CURRENTLY AVAILABLE
+> Verbalization tasks can be used to explore qualitatively the perceptually-relevant
+attributes of sound-interactive events: do users focus on the characteristic of the
+sound signal, on the characteristic of the source or on more abstract symbolic contents associated
+with the sound event ? 
+Verbalization can be free, or constrained.
+
+TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
