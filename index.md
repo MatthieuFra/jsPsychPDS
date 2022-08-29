@@ -147,12 +147,15 @@ TO ADD / NOT CURRENTLY AVAILABLE
 ### Preference estimation
 
 <b>Paired preference comparison task</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
 <b>Preference ranking task</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
 <b>Preference ratings</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
 > Preference data can be collected with various experimental methods: 
