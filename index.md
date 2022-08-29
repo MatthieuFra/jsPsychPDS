@@ -188,7 +188,8 @@ TO ADD / NOT CURRENTLY AVAILABLE
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/bws) [<b>[Demo]</b>](./demos-tasks/bws/experiment-demo.html)
 
-> The abbreviated 9-item Raven's standard progressive matrices. Both Forms A and B of [Bilker et al. (2012)](https://doi.org/10.1177%2F1073191112446655) are available.
+> Best–worst scaling (BWS) techniques involve choice modelling. 
+Survey respondents are shown a subset of items from a master list and are asked to indicate the best and worst items (or most and least important, or most and least appealing, etc.). The task is repeated a number of times, varying the particular subset of items in a systematic way, typically according to a statistical design.
 
 ### Sustain Attention Reaction Task (SART)
 
