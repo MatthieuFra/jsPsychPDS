@@ -108,7 +108,7 @@ With constrained sorting the number of groups is instead specified by
 the experimenter. 
 The participants can receive specific instructions about the criteria they should follow to group the stimuli together, or not. 
 When this is the case, sorting methods bear a strong resemblance to the categorization task, and if this isn't the case, the sorting
-task is the categorization analog of dissimilarity ratings
+task is the categorization analog of dissimilarity ratings.
 
 TO ADD / NOT CURRENTLY AVAILABLE
 
