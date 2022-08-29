@@ -1,5 +1,3 @@
-# PDS demos tasks
+# Sorting 
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
-
-
+All sorting tasks require participants to create groups of stimuli. The design of a sorting experiment requires two fundamental decisions firstly concerning the criteria participants should follow when creating the groups of stimuli and secondly concerning how many groups of stimuli the participants should create. In the free sorting variant , the experimenter does not specify the number of groups, and leaves the decision up to the participant. With constrained sorting the number of groups is instead specified by the experimenter. The participants can receive specific instructions about the criteria they should follow to group the stimuli together, or not. When this is the case, sorting methods bear a strong resemblance to the categorization task, and if this isn’t the case, the sorting task is the categorization analog of dissimilarity ratings.
