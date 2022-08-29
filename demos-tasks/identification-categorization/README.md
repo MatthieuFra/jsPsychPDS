@@ -1,5 +1,5 @@
-# PDS demos tasks
+# Identification & Categorization
 
-This depository contains all of the available demos taks used by the demo site. You can navigate through each task, it contains the demo stimuli and the code as well.
+Identification and categorization experiments allow the designer to assess the mapping from a set of display configurations to a set of meaningful verbal labels (e.g., identifications of naturalistic events but also mapping of stimulus set onto emotion- related categories such as “sad” or “happy”). During an identification/categorization experiment, participants are asked to assign each of the stimuli to one among a set of pre-specified verbal labels (e.g., “is this sound a violin, a guitar, or a flute tone?”).
 
 
