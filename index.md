@@ -253,8 +253,7 @@ Survey respondents are shown a subset of items from a master list and are asked 
 
 > The pairs generator is a useful module implemented in jsPsych in order to create from an Array Q with n elements, an other Array Q' with all the possible pairs between Q elements, without mutations ([a, b] and [b, a] are considered the same, and there's no [a, a]). 
   It's coded using ES6 syntax and it's used by all the experiments that need pairs and to perform permutations with stimuli.
-
-<i>
+  <i>
 Example :
 Q = ['a', 'b', 'c', 'd', 'e'];
 
