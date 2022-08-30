@@ -122,6 +122,16 @@ Verbalization can be free, or constrained.
 
 <hr>
 
+### Descriptors sound pairs comparison
+
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/descriptors-sound-pairs-comparison) [<b>[Demo]</b>](./demos-tasks/descriptors-sound-pairs-comparison/experiment-demo.html)
+
+> Participants choose between two sounds in a pair wich one seems more adequately reflecting the descriptor associated.
+Example : Wich sound is the most <b>Low</b> for you : A or B ? 
+All the pairs without mutations are tested for all descriptors.
+
+<hr>
+
 ### Semantic differential
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/semantic-differential) [<b>[Demo]</b>](./demos-tasks/semantic-differential/experiment-demo.html)
