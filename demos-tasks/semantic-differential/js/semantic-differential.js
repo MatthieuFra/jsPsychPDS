@@ -55,7 +55,7 @@ var email = 'example@ircam.fr';
          <p>Selon <b>${numbDescripteursEval}</b> descripteurs.</p>
           `,
         on_start: function(){
-          audio = new Audio('Silence.mp3');
+          audio = new Audio('audio/Silence.mp3');
           audio.loop = false;
           audio.play()
            },

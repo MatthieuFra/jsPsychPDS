@@ -50,7 +50,7 @@ var questions = [
          <p> Vous allez écouter <b>${numbSoundsEval}</b> sons sur lesquels nous allons vous demander de vous exprimer.</p>
           `,
         on_start: function(){
-          audio = new Audio('Silence.mp3');
+          audio = new Audio('Audio/Silence.mp3');
           audio.loop = false;
           audio.play()
            },
@@ -69,7 +69,7 @@ var questions = [
   var soundListened = false;
   var audio;
   
-  var verbalizationoundEval = {
+  var verbalizationSoundEval = {
     type: jsPsychSurveyText, 
     preamble: function(){
     
