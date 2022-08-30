@@ -8,6 +8,19 @@ var soundsHeadphonesTest = [
 var numbOfCorrectsAnswers = null;
 var numbOfFalsesAnswers = null;
 
+var currentAnswer; 
+
+
+var preload = {
+    type: jsPsychPreload,
+    audio: soundsHeadphonesTest,
+    };
+    
+    
+timeline.push(preload);
+
+
+
 var taskHeadphonesTest = {
 	type: jsPsychHtmlButtonResponse,
 	on_start: function(){
@@ -30,17 +43,29 @@ var taskHeadphonesTest = {
 		"Le second son est le plus faible",
 		"Le troisième son est le plus faible",
 	],
+	on_finish: function(){
+		console.log(jsPsych.data.getLastTrialData().trials[0])
+		currentAnswer = jsPsych.data.getLastTrialData().trials[0].response+1
+
+		return currentAnswer
+	},
 };
 
 
 
 var taskHeadphonesData = {
-	
+	type: jsPsychCallFunction,
+	func: function(){
+
+	},
 };
 
 
 var taskHeadphonesLoop = {
 	timeline: [taskHeadphonesTest, taskHeadphonesData],
 	repetitions: 6,
+	on_finish: function(){
+
+	},
 
 };
