@@ -88,8 +88,6 @@ method, is to measure perceptual distances between the stimuli: very similar sti
 are separated by a short perceptual distance; very different or dissimilar stimuli are
 separated by a long perceptual distance. On each trial of a dissimilarity ratings experiment, participants are presented with two stimuli and are asked to rate how dissimilar they are on a “very similar” to “very dissimilar” scale. 
 
-TO ADD / NOT CURRENTLY AVAILABLE
-
 <hr>
 
 ### Sorting
