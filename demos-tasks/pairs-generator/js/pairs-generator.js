@@ -16,4 +16,7 @@ const pairsOfArray = array => (
 //The new array with all the pairs.
 var pairsArray = pairsOfArray(jsPsych.randomization.shuffle(arrayElements));
 
+//in order to randomize the pairs at the end
+pairsArray = jsPsych.randomization.shuffle(pairsArray)
+
 console.log(pairsArray)

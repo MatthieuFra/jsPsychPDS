@@ -1,4 +1,6 @@
-/* _______________________________________________________________________________________
+  
+
+  /* _______________________________________________________________________________________
 PARAMETRES */
 
 
@@ -27,7 +29,7 @@ const pairsOfArray = array => (
 
 //The new array with all the pairs.
 var pairsArray = pairsOfArray(jsPsych.randomization.shuffle(arrayElements));
-
+pairsArray = jsPsych.randomization.shuffle(pairsArray)
 console.log(pairsArray)
 
 
@@ -68,7 +70,7 @@ console.log(pairsArray)
          <p> Vous allez écouter <b>${numbSoundsEval}</b> sons sous la forme de <b>${numbSoundsEvalPairs}</b> paires de sons.</p>
           `,
         on_start: function(){
-          audio = new Audio('Silence.mp3');
+          audio = new Audio('audio/Silence.mp3');
           audio.loop = false;
           audio.play()
            },
@@ -97,11 +99,15 @@ console.log(pairsArray)
       <i><p>Veuillez appuyer sur</i> 
       <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
       <i>pour écouter les deux sons.</p></i>
+      <p style="color: white, font-size: 50px"></p>
+      <hr>
+
+      <p>Quel est le son que vous <b>préférez</b> ?</p>
      
      
      
      <p style="color: white; font-size:10px">WWW</p>`},
-    choices: ["Sound A", "Sound B"],   
+    choices: ["Son A", "Son B"],   
     on_start: function(){
       
         keyPress1 = null
@@ -117,10 +123,9 @@ console.log(pairsArray)
 
         var audio_A = new Audio(pairsArray[q][0]);
         var audio_B = new Audio(pairsArray[q][1]);
-        audio_ref.loop = false;
-
+      
         audio_A.play()
-        setTimeout(function(){audio_B.play();}, 1000);
+        setTimeout(function(){audio_B.play();}, 1500);
         soundListened = true  
 
         }
@@ -185,4 +190,8 @@ var evalSound = {
   
  timeline.push(loopEvalSound);
  
+  
+  
+  
+  
   
