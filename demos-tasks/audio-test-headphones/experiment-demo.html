@@ -9,6 +9,8 @@
   <!-- Load jsPsych plug-ins -->
   <script src="../../lib/jspsych-7.3.0/dist/plugin-html-button-response.js" type="text/javascript"></script>
   <script src="../../lib/jspsych-7.3.0/dist/plugin-html-keyboard-response.js" type="text/javascript"></script>
+  <script src="../../lib/jspsych-7.3.0/dist/plugin-preload.js" type="text/javascript"></script>
+  <script src="../../lib/jspsych-7.3.0/dist/plugin-call-function.js" type="text/javascript"></script>
 
   <!-- Load CSS styles -->
   <link href="../../lib/jspsych-7.3.0/dist/jspsych.css" rel="stylesheet" type="text/css"></link>
@@ -58,10 +60,117 @@ var timeline = [];
     timeline.push(startDemo);
 	
 	
+
+
+/*var soundsHeadphonesTest = [
+"audio/200Hz_1000ms_100msFade_1.wav",
+"audio/200Hz_1000ms_100msFade_2.wav",
+"audio/200Hz_1000ms_100msFade_phase180.wav",
+]; */
+
+var soundsHeadphonesTest = [
+"audio/400.wav",
+"audio/800.wav",
+"audio/1400.wav",
+];
+
+
+var numbOfCorrectsAnswers = null;
+var numbOfFalsesAnswers = null;
+
+var currentAnswer; 
+
+var optA;
+var optB;
+var optC;
+
+
+var preload = {
+    type: jsPsychPreload,
+    audio: soundsHeadphonesTest,
+    };
+    
+    
+timeline.push(preload);
+
+
+var taskHeadphonesPlays = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size:30px"><b>Lecture</b></p>`,
+    choices: ["NO_KEYS"],
+    trial_duration: 5000,
+    on_start: function(){
+
+    //randomization of the three sounds
+    soundsHeadphonesTest = jsPsych.randomization.shuffle(soundsHeadphonesTest)
+
+    var audio_A = new Audio(soundsHeadphonesTest[0]);
+    var audio_B = new Audio(soundsHeadphonesTest[1]);
+    var audio_C = new Audio(soundsHeadphonesTest[2]);
+
+    optA = soundsHeadphonesTest[0];
+    optB = soundsHeadphonesTest[1];
+    optC = soundsHeadphonesTest[2];
+
+      
+    audio_A.play()
+    setTimeout(function(){audio_B.play();}, 1500);
+    setTimeout(function(){audio_C.play();}, 3000);
+
+    },
+};
+
+
+var taskHeadphonesTest = {
+  type: jsPsychHtmlButtonResponse,
+  on_start: function(){
+  },
+  stimulus: "Lequel des trois sons que vous avez entendu a le niveau sonore le plus <b>faible</b> ?<hr>",
+  choices: [
+    "Le premier son",
+    "Le second son",
+    "Le troisième",
+  ],
+  on_finish: function(){
+    console.log(jsPsych.data.getLastTrialData().trials[0]+1)
+    currentAnswer = jsPsych.data.getLastTrialData().trials[0].response+1
+
+    return currentAnswer
+  },
+};
+
+var taskHeadphonesCross = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size:50px"><b>+</b></p>`,
+    choices: ["NO_KEYS"],
+    trial_duration: 1500,
+};
+
+
+var taskHeadphonesData = {
+  type: jsPsychCallFunction,
+  func: function(){
+
+  },
+  data: function(){
+    
+  },
+};
+
+
+var taskHeadphonesLoop = {
+  timeline: [taskHeadphonesPlays, taskHeadphonesTest, taskHeadphonesCross, taskHeadphonesData],
+  repetitions: 6,
+  on_finish: function(){
+
+  },
+
+};
+
 	
 	
 	
-	
+timeline.push(taskHeadphonesLoop);
 	
 	
 	
