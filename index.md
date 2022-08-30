@@ -148,9 +148,13 @@ Each bipolar scale is usually divided in an odd number of intervals (e.g., seven
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
+TO ADD / NOT CURRENTLY AVAILABLE
+
 <b><i>Preference ratings</i></b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
+
+TO ADD / NOT CURRENTLY AVAILABLE
 
 > Preference data can be collected with various experimental methods: 
 In a paired preference comparison task, participants are presented with all the possible pairs of stimuli, one at a time,
