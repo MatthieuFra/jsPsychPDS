@@ -75,8 +75,14 @@ var soundsHeadphonesTest = [
 ];
 
 
-var numbOfCorrectsAnswers = null;
-var numbOfFalsesAnswers = null;
+//to check the answers
+var phase = "audio/1400.wav";
+var pad =   "audio/800.wav";
+
+
+
+var numbOfCorrectsAnswers = 0;
+var numbOfFalsesAnswers = 0;
 
 var currentAnswer; 
 
@@ -85,6 +91,7 @@ var optB;
 var optC;
 
 
+//preloading the sounds
 var preload = {
     type: jsPsychPreload,
     audio: soundsHeadphonesTest,
@@ -93,7 +100,7 @@ var preload = {
     
 timeline.push(preload);
 
-
+//presentations of stimulis
 var taskHeadphonesPlays = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p style="font-size:30px"><b>Lecture</b></p>`,
@@ -112,6 +119,9 @@ var taskHeadphonesPlays = {
     optB = soundsHeadphonesTest[1];
     optC = soundsHeadphonesTest[2];
 
+    console.log(optA);
+    console.log(optB);
+    console.log(optC);
       
     audio_A.play()
     setTimeout(function(){audio_B.play();}, 1500);
@@ -120,7 +130,7 @@ var taskHeadphonesPlays = {
     },
 };
 
-
+//answering part
 var taskHeadphonesTest = {
   type: jsPsychHtmlButtonResponse,
   on_start: function(){
@@ -132,13 +142,25 @@ var taskHeadphonesTest = {
     "Le troisième",
   ],
   on_finish: function(){
-    console.log(jsPsych.data.getLastTrialData().trials[0]+1)
     currentAnswer = jsPsych.data.getLastTrialData().trials[0].response+1
-
-    return currentAnswer
+    console.log(currentAnswer)
+    if(currentAnswer === 1){
+      currentAnswer = optA
+      console.log(currentAnswer)
+      return currentAnswer
+      console.log(currentAnswer)
+    } else if(currentAnswer === 2){
+      console.log(currentAnswer)
+      return currentAnswer
+      console.log(currentAnswer)
+    } else if(currentAnswer === 3){
+      console.log(currentAnswer)
+      return currentAnswer
+    }
   },
 };
 
+//inter-trial interval
 var taskHeadphonesCross = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p style="font-size:50px"><b>+</b></p>`,
@@ -146,18 +168,36 @@ var taskHeadphonesCross = {
     trial_duration: 1500,
 };
 
-
+//data processing function part
 var taskHeadphonesData = {
   type: jsPsychCallFunction,
   func: function(){
-
+    if(currentAnswer === phase){
+      numbOfFalsesAnswers ++
+      console.log(numbOfFalsesAnswers)
+      console.log("Phase")
+    } else if(currentAnswer === pad){
+      numbOfCorrectsAnswers ++
+      console.log(numbOfCorrectsAnswers)
+      console.log("Pad")
+    } else {
+      numbOfFalsesAnswers ++
+      console.log(numbOfFalsesAnswers)
+      console.log("Wrong")
+    }
   },
   data: function(){
-    
+    return {
+          task: 'REPONSE SUJET',
+          answer: `${currentAnswer}`,
+          numbFalse: `${numbOfFalsesAnswers}`, 
+          numbCorrect: `${numbOfCorrectsAnswers}`, 
+         }
   },
 };
 
 
+//loop of the procedure
 var taskHeadphonesLoop = {
   timeline: [taskHeadphonesPlays, taskHeadphonesTest, taskHeadphonesCross, taskHeadphonesData],
   repetitions: 6,
