@@ -327,7 +327,7 @@ Adapted from [(Woods, 2017)](https://link.springer.com/article/10.3758/s13414-01
 
 ### Audio tokens plugin
 
-[<b>[Original website]</b>](https://psyarxiv.com/3j58q/) [<b>[GitHub]</b>](github.com/pwdonh/audio_tokens)
+[<b>[Original website]</b>](https://psyarxiv.com/3j58q/) [<b>[GitHub]</b>](https://github.com/pwdonh/audio_tokens)
 
 > A Javascript toolbox to perform online rating studies with auditory material. The main feature of the toolbox is that audio samples are associated with visual tokens on the screen that control audio playback and can be manipulated depending on the type of rating. This allows the collection of single- and multi-dimensional feature ratings, as well as categorical and similarity ratings.  [(Donhauser & Klein, 2021)](https://psyarxiv.com/3j58q/)
 
