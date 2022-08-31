@@ -219,7 +219,7 @@ Survey respondents are shown a subset of items from a master list and are asked 
 
 ### Voice heart rate detection experiment
 
-[<b>[Code]</b>]([https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/paced-visual-serial-addition-task](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/working_experiments/heart-voice)) [<b>[Demo]</b>](./jspsych-ressources-team/working_experiments/heart-voice/heart-voice.html)
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/working_experiments/heart-voice) [<b>[Demo]</b>](./jspsych-ressources-team/working_experiments/heart-voice/heart-voice.html)
 
 > A test for an implementation in jsPsych of an experiment for Nadia GUEROUAOU for her research projet. It'll be tested and then keep up to date.
 
