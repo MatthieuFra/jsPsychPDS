@@ -1,16 +1,29 @@
+
+//test stimuli for the task
 var soundsHeadphonesTest = [
-"200Hz_1000ms_100msFade_1.wav",
-"200Hz_1000ms_100msFade_2.wav",
-"200Hz_1000ms_100msFade_phase180.wav",
-];
+"audio/200Hz_1000ms_100msFade_1.wav",
+"audio/200Hz_1000ms_100msFade_2_-6dB.wav",
+"audio/200Hz_1000ms_100msFade_3_Phase180Left.wav",
+]; 
 
 
-var numbOfCorrectsAnswers = null;
-var numbOfFalsesAnswers = null;
+//to check the answers
+var phase = "audio/200Hz_1000ms_100msFade_3_Phase180Left.wav";
+var pad =   "audio/200Hz_1000ms_100msFade_2_-6dB.wav";
+
+
+//count of answer to screen performance
+var numbOfCorrectsAnswers = 0;
+var numbOfFalsesAnswers = 0;
 
 var currentAnswer; 
 
+var optA;
+var optB;
+var optC;
 
+
+//preloading the sounds
 var preload = {
     type: jsPsychPreload,
     audio: soundsHeadphonesTest,
@@ -19,53 +32,116 @@ var preload = {
     
 timeline.push(preload);
 
+//presentations of stimulis
+var taskHeadphonesPlays = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size:30px"><b>Lecture</b></p>`,
+    choices: ["NO_KEYS"],
+    trial_duration: 5000,
+    on_start: function(){
 
+    //randomization of the three sounds
+    soundsHeadphonesTest = jsPsych.randomization.shuffle(soundsHeadphonesTest)
 
-var taskHeadphonesTest = {
-	type: jsPsychHtmlButtonResponse,
-	on_start: function(){
+    var audio_A = new Audio(soundsHeadphonesTest[0]);
+    var audio_B = new Audio(soundsHeadphonesTest[1]);
+    var audio_C = new Audio(soundsHeadphonesTest[2]);
 
-		//randomization of the three sounds
-		soundsHeadphonesTest = jsPsych.randomization.shuffle(soundsHeadphonesTest)
+    optA = soundsHeadphonesTest[0];
+    optB = soundsHeadphonesTest[1];
+    optC = soundsHeadphonesTest[2];
 
-		var audio_A = new Audio(soundsHeadphonesTest[0]);
-        var audio_B = new Audio(soundsHeadphonesTest[1]);
-        var audio_C = new Audio(soundsHeadphonesTest[2]);
+    console.log(optA);
+    console.log(optB);
+    console.log(optC);
       
-        audio_A.play()
-        setTimeout(function(){audio_B.play();}, 1500);
-        setTimeout(function(){audio_C.play();}, 3000);
+    audio_A.play()
+    setTimeout(function(){audio_B.play();}, 1500);
+    setTimeout(function(){audio_C.play();}, 3000);
 
-	},
-	stimulus: "Le quel des trois sons que vous avez entendu a le niveau sonore le plus <b>faible</b> ?",
-	choices: [
-		"Le premier son est le plus faible",
-		"Le second son est le plus faible",
-		"Le troisième son est le plus faible",
-	],
-	on_finish: function(){
-		console.log(jsPsych.data.getLastTrialData().trials[0])
-		currentAnswer = jsPsych.data.getLastTrialData().trials[0].response+1
-
-		return currentAnswer
-	},
+    },
 };
 
+//answering part
+var taskHeadphonesTest = {
+  type: jsPsychHtmlButtonResponse,
+  on_start: function(){
+  },
+  stimulus: "Lequel des trois sons que vous avez entendu a le niveau sonore le plus <b>faible</b> ?<hr>",
+  choices: [
+    "Le premier son",
+    "Le second son",
+    "Le troisième",
+  ],
+  on_finish: function(){
+    currentAnswer = jsPsych.data.getLastTrialData().trials[0].response+1
+    console.log(currentAnswer)
+    if(currentAnswer === 1){
+      currentAnswer = optA
+      console.log(currentAnswer)
+      return currentAnswer
+    } else if(currentAnswer === 2){
+      currentAnswer = optB
+      console.log(currentAnswer)
+      return currentAnswer
+    } else if(currentAnswer === 3){
+      currentAnswer = optC
+      console.log(currentAnswer)
+      return currentAnswer
+    }
+  },
+};
 
+//inter-trial interval
+var taskHeadphonesCross = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size:50px"><b>+</b></p>`,
+    choices: ["NO_KEYS"],
+    trial_duration: 1500,
+};
 
+//data processing function part
 var taskHeadphonesData = {
-	type: jsPsychCallFunction,
-	func: function(){
-
-	},
+  type: jsPsychCallFunction,
+  func: function(){
+    if(currentAnswer === phase){
+      numbOfFalsesAnswers ++
+      console.log(numbOfFalsesAnswers)
+      console.log("Phase")
+    } else if(currentAnswer === pad){
+      numbOfCorrectsAnswers ++
+      console.log(numbOfCorrectsAnswers)
+      console.log("Pad")
+    } else {
+      numbOfFalsesAnswers ++
+      console.log(numbOfFalsesAnswers)
+      console.log("Wrong")
+    }
+  },
+  data: function(){
+    return {
+          task: 'REPONSE SUJET',
+          answer: `${currentAnswer}`,
+          numbFalse: `${numbOfFalsesAnswers}`, 
+          numbCorrect: `${numbOfCorrectsAnswers}`, 
+         }
+  },
 };
 
 
+//loop of the procedure
 var taskHeadphonesLoop = {
-	timeline: [taskHeadphonesTest, taskHeadphonesData],
-	repetitions: 6,
-	on_finish: function(){
+  timeline: [taskHeadphonesPlays, taskHeadphonesTest, taskHeadphonesCross, taskHeadphonesData],
+  repetitions: 6,
+  on_finish: function(){
 
-	},
+  },
 
 };
+
+	
+	
+	
+timeline.push(taskHeadphonesLoop);
+	
+	
