@@ -331,3 +331,21 @@ Adapted from [(Woods, 2017)](https://link.springer.com/article/10.3758/s13414-01
 
 > A Javascript toolbox to perform online rating studies with auditory material. The main feature of the toolbox is that audio samples are associated with visual tokens on the screen that control audio playback and can be manipulated depending on the type of rating. This allows the collection of single- and multi-dimensional feature ratings, as well as categorical and similarity ratings.  [(Donhauser & Klein, 2021)](https://psyarxiv.com/3j58q/)
 
+     
+Some screenshots to illustrate : 
+
+- Single feature rating
+
+<img src="./lib/externals-lib/audio_tokens-main/imgs/figure_one_feature.png" alt="drawing" width="200"/>
+
+- Multiple feature rating
+
+<img src="./lib/externals-lib/audio_tokens-main/imgs/figure_three_features.png" alt="drawing" width="200"/>
+
+- Sorting
+
+<img src="./lib/externals-lib/audio_tokens-main/imgs/figure_cluster.png" alt="drawing" width="200"/>
+
+And more, like categorization, constrained or free, etc.
+
+You can try the tools interactively [here](https://peterdonhauser.com/post/audio-ratings/).
