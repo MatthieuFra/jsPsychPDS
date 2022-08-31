@@ -9,6 +9,7 @@
   <!-- Load jsPsych plug-ins -->
   <script src="../../../lib/jspsych-7.3.0/dist/plugin-html-button-response.js" type="text/javascript"></script>
   <script src="../../../lib/jspsych-7.3.0/dist/plugin-html-keyboard-response.js" type="text/javascript"></script>
+  <script src="../../../lib/jspsych-7.3.0/dist/plugin-video-button-response.js" type="text/javascript"></script>
   <script src="../../../lib/jspsych-7.3.0/dist/plugin-preload.js" type="text/javascript"></script>
   <!-- Load CSS styles -->
   <link href="../../../lib/jspsych-7.3.0/dist/jspsych.css" rel="stylesheet" type="text/css"></link>
@@ -64,10 +65,13 @@ PARAMETRES */
 
 
 var sounds = [
-
+  "audio/TESTAUDIO1.wav",
+  "audio/TESTAUDIO2.wav",
   ];
   
-
+var videos = [
+  "vid/TEST1.mp4",
+  ];
 
 
 //creating of the pairs  
@@ -91,14 +95,22 @@ console.log(pairsArray)
 
 
 
-        /* preload sounds */
-        
-    var preload = {
+       
+   //preload sound and video     
+    var preload1 = {
       type: jsPsychPreload,
       audio: sounds,
     };
     
-    timeline.push(preload);
+    timeline.push(preload1);
+ 
+    //preload sound and video     
+    var preload2 = {
+      type: jsPsychPreload,
+      video: videos,
+    };
+    
+    timeline.push(preload2);
  
 
   var q = 0;
@@ -115,6 +127,7 @@ console.log(pairsArray)
   console.log(`Number of sounds pairs is: ${numbSoundsEvalPairs}`)
   
 
+  //demo instructions
   var preTask = {
         
         type: jsPsychHtmlButtonResponse,
@@ -122,7 +135,8 @@ console.log(pairsArray)
           <b>Début de l'évaluation</b><p>
           <hr>
          <i>Merci de participer à cette évaluation.</i>
-         <p> Vous allez écouter <b>${numbSoundsEval}</b> sons sous la forme de <b>${numbSoundsEvalPairs}</b> paires de sons.</p>
+         <p>Vous allez écouter deux sons différents avec un rythme cardiaque video.</p>
+         <p>Vous devrez indiquer pour chaque paire de son, lequel correspond à votre avis au rythme cardiaque affiché.</p>
           `,
         on_start: function(){
           audio = new Audio('audio/Silence.mp3');
@@ -140,92 +154,59 @@ console.log(pairsArray)
     timeline.push(preTask);
     
 
+ 
 
-  var soundListened = false;
-  var audio;
-  
-  var preferenceSnoundEval = {
-    type: jsPsychHtmlButtonResponse, 
-    stimulus: function(){
-    
-    return  `
-      <p style="font-size: 25px">Paire <b>${q+1}</b></p><hr>
-    
-      <i><p>Veuillez appuyer sur</i> 
-      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-      <i>pour écouter les deux sons.</p></i>
-      <p style="color: white, font-size: 50px"></p>
-      <hr>
-
-      <p>Quel est le son que vous <b>préférez</b> ?</p>
-     
-     
-     
-     <p style="color: white; font-size:10px">WWW</p>`},
-    choices: ["Son A", "Son B"],   
-    on_start: function(){
-      
-        keyPress1 = null
-        rtKey1 = null
-        soundListened = false
-        
-        var press1 = function(info){
-        audio.pause()
-       // console.log("Touche 1 pressée à " + info.rt +  " ms")
-        keyPress1 = true
-        rtArray1.push(info.rt)
-        rtKey1 = info.rt
-
+//listen to first sound of the pair
+var listenA = {
+  type: jsPsychVideoButtonResponse,
+  stimulus: [
+    videos[0],
+  ],
+  width: 300,
+  choices: ["Son A", "Son B"], 
+  prompt: "<hr><p>Quel son correspond selon vous au rythme cardiaque affiché ?</p>",
+  response_allowed_while_playing: false,
+  //trial_duration: 10,
+  trial_ends_after_video: true,
+  on_start: function(){
         var audio_A = new Audio(pairsArray[q][0]);
         var audio_B = new Audio(pairsArray[q][1]);
       
         audio_A.play()
-        setTimeout(function(){audio_B.play();}, 1500);
-        soundListened = true  
-
-        }
-
-
-
-        
-        var keyboard1 = jsPsych.pluginAPI.getKeyboardResponse({
-          callback_function: press1,
-          valid_responses: [' '],
-          rt_method: 'performance',
-          persist: true,
-          allow_held_key: true,
-        })
-      
-    },
-    
-    on_finish: function(){
-       audio.pause()
-    },
-};
-
-
-
-var evalSound = {
-  timeline: [preferenceSnoundEval],
-  loop_function: function(){
-    if(soundListened === true){
-      console.log("soundListened: True")
-      return false
-    } else {
-      console.log("soundListened: False")
-      alert("Vous devez écouter le son avant de répondre")
-      return true
-    }
   },
   on_finish: function(){
-    soundListened = false
-    return soundListened
+    audio.pause()
   },
-  
+  post_trial_gap: 1000,
 };
 
+
+//listend to the second sound of the pair
+var listenB = {
+  type: jsPsychVideoButtonResponse,
+  stimulus: [
+    videos[0],
+  ],
+  width: 300,
+  choices: ["Son A", "Son B"], 
+  prompt: "<hr><p>Quel son correspond selon vous au rythme cardiaque affiché ?</p>",
+  response_allowed_while_playing: false,
+  trial_ends_after_video: false,
+  on_start: function(){
+        var audio_A = new Audio(pairsArray[q][0]);
+        var audio_B = new Audio(pairsArray[q][1]);
+      
+        audio_B.play()
+  },
+  on_finish: function(){
+    audio.pause()
+  },
+};
+
+
+
   var loopEvalSound = {
-    timeline: [evalSound],
+    timeline: [listenA, listenB],
     loop_function: function(){
       if(q < numbSoundsEvalPairs-1){
         q++
