@@ -14,9 +14,8 @@ layout: default
 ## Advanced Tutorials 
 
 - [Moving research online](https://www.youtube.com/watch?v=BuhfsIFRFe8&list=PLb_Brg3lLp-2HUVoc0SpFft3lu-rQOgAe) youtube seminar.
-- INSERT team presentation ? 
-- XXX
-
+- [Oral presentations made to the team](https://github.com/MatthieuFra/jsPsychPDS/tree/main/pdf/oral_presentations) Powerpoints and .pdf
+- 
 
 [back](./)
 
