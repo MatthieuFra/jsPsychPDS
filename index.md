@@ -362,7 +362,13 @@ You can try the tools interactively [here](https://peterdonhauser.com/post/audio
 # References
      
 Here's all the references cited in the website.
-     
-     - Robertson, I., Manly, T., Andrade, J., Baddeley, B., & Yiend, J. (1997). `Oops!': Performance correlates of everyday attentional failures in traumatic brain injured and normal subjects. Neuropsychologia, 35(6), 747-758. doi: 10.1016/s0028-3932(97)00015-8
-     
-     - 
+ 
+Robertson, I., Manly, T., Andrade, J., Baddeley, B., & Yiend, J. (1997). `Oops!': Performance correlates of everyday attentional failures in traumatic brain injured and normal subjects. Neuropsychologia, 35(6), 747-758. doi: 10.1016/s0028-3932(97)00015-8
+ 
+Kuroki, D. (2020). A new jsPsych plugin for psychophysics, providing accurate display duration and stimulus onset asynchrony. Behavior Research Methods, 53(1), 301-310. doi: 10.3758/s13428-020-01445-w
+
+Woods, K., Siegel, M., Traer, J., & McDermott, J. (2017). Headphone screening to facilitate web-based auditory experiments. Attention, Perception, &Amp; Psychophysics, 79(7), 2064-2072. doi: 10.3758/s13414-017-1361-2
+
+Hamidi, F., & Roohi, N. (2011). Manufacture and Validation of Paced Visual Serial Addition Test (PVSAT) for an Iranian Population. Procedia Computer Science, 3, 138-143. doi: 10.1016/j.procs.2010.12.024
+
+de Leeuw, J. (2014). jsPsych: A JavaScript library for creating behavioral experiments in a Web browser. Behavior Research Methods, 47(1), 1-12. doi: 10.3758/s13428-014-0458-y
