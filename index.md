@@ -214,9 +214,8 @@ Survey respondents are shown a subset of items from a master list and are asked 
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/sart) [<b>[Demo]</b>](./demos-tasks/sart/experiment-demo.html)
 
-> An implementation of the SART Task described [HERE](https://www.psytoolkit.org/experiment-library/sart.html#refs) and originally designed by Robertson and colleagues in 1997 (Robertson, Andrade, Baddeley, Yiend)
+> An implementation of the SART Task described [HERE](https://www.psytoolkit.org/experiment-library/sart.html#refs) and originally designed by Robertson and colleagues. (Robertson & Andrade, 1997)
 
-<i style="font-size: 80%">Robertson, I.H., Manly, T., Andrade, J., Baddeley, B.T., Yiend, J. (1997). 'Oops!': performance correlates of everyday attentional failures in traumatic brain injured and normal subjects. Neuropsychologia, 35(6), 747-758.</i>
 
 ### Irrelevant Sound Effect (ISE)
 
@@ -364,4 +363,6 @@ You can try the tools interactively [here](https://peterdonhauser.com/post/audio
      
 Here's all the references cited in the website.
      
+     - Robertson, I., Manly, T., Andrade, J., Baddeley, B., & Yiend, J. (1997). `Oops!': Performance correlates of everyday attentional failures in traumatic brain injured and normal subjects. Neuropsychologia, 35(6), 747-758. doi: 10.1016/s0028-3932(97)00015-8
      
+     - 
