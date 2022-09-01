@@ -32,6 +32,13 @@ criminable difference in a stimulus attribute.
 
 <hr>
 
+### Sonic egalisation
+
+[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/sonic-egalisation) [<b>[Demo]</b>](./demos-tasks/sonic-egalisation/experiment-demo.html)
+
+> A task designed to egalise sonic between stimuli before making an perceptual evaluation.
+
+
 ## Classicals paradigms for audio evaluation
 
 <i>Partly based on Sonic Interaction Design (Franovic & Serafin, 2012) especially Chapter 5 <b>Perceptual evalutation of sound-producing objects</b> (Giordano, Susini, Bresin)</i>
@@ -286,12 +293,6 @@ Q' = [[['a','b'], ['a','c'], ['a','d'],['a','e'],['b','c'],['b','d'],['b','e'],[
 <hr>
 
 ## Audio utilities 
-
-### Sonic egalisation
-
-[<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/sonic-egalisation) [<b>[Demo]</b>](./demos-tasks/sonic-egalisation/experiment-demo.html)
-
-> A task designed to egalise sonic between stimuli before making an perceptual evaluation.
 
 ### Audio test Headphones
 
