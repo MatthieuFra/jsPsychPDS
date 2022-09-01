@@ -107,7 +107,7 @@ console.log(pairsArray)
      
      
      <p style="color: white; font-size:10px">WWW</p>`},
-    labels: ["Absolument pas ressemblants", "Très ressemblants"],   
+    labels: ["Dissemblables", "Semblables"],   
     require_movement: true,
     slider_start: function(){
       return Math.floor(Math.random()*100)
