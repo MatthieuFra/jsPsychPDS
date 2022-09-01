@@ -2,8 +2,8 @@
 layout: default
 ---
 # Perception et Design Sonores
-<img src="./assets/img/header2.png" style="width: 500px" alt="Logo equipe">
-<img src="./assets/img/stms-logo.png" style="width: 500px" alt="logo labo">
+<img src="./assets/img/header2.png" style="width: 600px" alt="Logo equipe">
+<img src="./assets/img/stms-logo.png" style="width: 450px" alt="logo labo">
 
      
 # Tasks / Plugins
