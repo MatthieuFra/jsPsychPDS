@@ -39,6 +39,8 @@ criminable difference in a stimulus attribute.
 
 ### Identification and categorization
 
+<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/identification-categorization) [<b>[Demo]</b>](./demos-tasks/identification-categorization/experiment-demo.html)
 
 > Identification and categorization experiments allow the designer to assess the
@@ -49,12 +51,13 @@ During an identification/categorization experiment, participants are asked to as
 each of the stimuli to one among a set of pre-specified verbal labels (e.g., “is this
 sound a violin, a guitar, or a flute tone?”). 
 
-TO ADD / NOT CURRENTLY AVAILABLE
 
 
 <hr>
 
 ### Scaling and rating
+
+<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/scaling-rating) [<b>[Demo]</b>](./demos-tasks/scaling-rating/experiment-demo.html)
 
@@ -77,7 +80,6 @@ The rating method can be conceived as a variant of the magnitude estimation
 method : participants estimate the sensory magnitude by choosing an
 integer number within a prespecified range. 
 
-TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
@@ -94,6 +96,8 @@ separated by a long perceptual distance. On each trial of a dissimilarity rating
 
 ### Sorting
 
+<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/sorting) [<b>[Demo]</b>](./demos-tasks/sorting/experiment-demo.html)
 
 > All sorting tasks require participants to create groups of stimuli. The design of a sorting experiment requires two fundamental decisions
@@ -108,7 +112,6 @@ The participants can receive specific instructions about the criteria they shoul
 When this is the case, sorting methods bear a strong resemblance to the categorization task, and if this isn't the case, the sorting
 task is the categorization analog of dissimilarity ratings.
 
-TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
@@ -156,15 +159,17 @@ Each bipolar scale is usually divided in an odd number of intervals (e.g., seven
 
 <b><i>Preference ranking task</i></b>
 
+<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
-TO ADD / NOT CURRENTLY AVAILABLE
 
 <b><i>Preference ratings</i></b>
 
+<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/preference-estimation) [<b>[Demo]</b>](./demos-tasks/preference-estimation/experiment-demo.html)
 
-TO ADD / NOT CURRENTLY AVAILABLE
 
 > Preference data can be collected with various experimental methods: 
 In a paired preference comparison task, participants are presented with all the possible pairs of stimuli, one at a time,
@@ -177,6 +182,8 @@ With preference ratings, participants rate their preference for each of the stim
 
 ### Continuous audio evaluation
 
+<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
+
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/continuous-evaluation) [<b>[Demo]</b>](./demos-tasks/continuous-evaluation/experiment-demo.html)
 
 > Participants in a continuous evaluation experiment are asked to repeatedly judge
@@ -184,7 +191,6 @@ some perceptual/cognitive attribute as the stimulus unfolds in time (e.g., a mus
 composition or a soundscape).
 This jsPsych implementation use keyboards responses that can be pressed during the listening of the stimulus.
 
-TO ADD / NOT CURRENTLY AVAILABLE
 
 <hr>
 
