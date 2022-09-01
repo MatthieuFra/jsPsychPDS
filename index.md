@@ -351,3 +351,10 @@ Some screenshots to illustrate :
 And more, like categorization, constrained or free, etc.
 
 You can try the tools interactively [here](https://peterdonhauser.com/post/audio-ratings/).
+     
+     
+# References
+     
+Here's all the references cited in the website.
+     
+     
