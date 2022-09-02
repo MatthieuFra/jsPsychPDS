@@ -47,7 +47,6 @@ criminable difference in a stimulus attribute.
 
 ### Identification and categorization
 
-<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/identification-categorization) [<b>[Demo]</b>](./demos-tasks/identification-categorization/experiment-demo.html)
 
@@ -103,7 +102,7 @@ separated by a long perceptual distance. On each trial of a dissimilarity rating
 
 ### Sorting
 
-<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
+
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/sorting) [<b>[Demo]</b>](./demos-tasks/sorting/experiment-demo.html)
 
