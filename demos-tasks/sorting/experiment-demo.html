@@ -66,9 +66,25 @@ var timeline = [];
 	
 	
 	
+  var sounds = [
+   'audio/400.wav',
+   'audio/800.wav',
+   'audio/1400.wav',
+   'audio/3000.wav',
+   'audio/6000.wav',
+  ];
 	
-	
-	
+
+	var single_feature_trial = {
+    type: jsPsychAudioTokens,
+    ratingtype: 'cluster',
+    stimuli: sounds,
+    force_listen: false,
+    loop: true,
+    prompt: '<p>Rangez ces sons de la façon qui vous semble la plus appropriée.</p>'
+}
+
+timeline.push(single_feature_trial);
 	
 	
 	

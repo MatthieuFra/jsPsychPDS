@@ -66,9 +66,26 @@ var timeline = [];
 	
 	
 	
+  var sounds = [
+   'audio/400.wav',
+   'audio/800.wav',
+   'audio/1400.wav',
+   'audio/3000.wav',
+   'audio/6000.wav',
+  ];
 	
-	
-	
+
+	var single_feature_trial = {
+    type: jsPsychAudioTokens,
+    ratingtype: 'categories',
+    stimuli: sounds,
+    label: ['Sons graves', 'Sons médiums','Sons aigus'],
+    force_listen: false,
+    loop: true,
+    prompt: '<p>Classez ces sons dans la catégorie qui vous semble appropriée. </p>'
+}
+
+timeline.push(single_feature_trial);
 	
 	
 	
