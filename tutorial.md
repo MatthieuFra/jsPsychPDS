@@ -36,7 +36,7 @@ Usually, an experiment is composed of the following elements :
 - Thanks
 
 To compose your experiment with the PDS construction toolkit, first you have to copy/pase locally the elements available in [Template New Task](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/template_new_task) to get all the folder conformed the right way. 
-Then you just have to copy and paste each part of code corresponding to each part. You can use the website with the demo and pick what you need, or directly get it from the [Construction toolkit section](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/experiment_construction_toolkit).
+Then you just have to copy and paste each part of code corresponding to each part. You can use the website with the demo and pick what you need, or directly get it from the [Demo tasks availables](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks).
 
 For the <b>experimental procedure</b> you'll need to take the code for a particular task, or you can use a [full template](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/paradigms_template) if one is available for the type of experiment you're willing to perform. Also, it can be interesting to check the [Customized plugins](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/custom_plugins) availables, that can help a lot. Or maybe you just need to clone an existing experiment that have be used, in that case go to [Team experiments](https://github.com/MatthieuFra/jsPsychPDS/tree/main/jspsych-ressources-team/team_experiments). 
 
