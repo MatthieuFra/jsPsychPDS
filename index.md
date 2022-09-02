@@ -373,3 +373,5 @@ Woods, K., Siegel, M., Traer, J., & McDermott, J. (2017). Headphone screening to
 Hamidi, F., & Roohi, N. (2011). Manufacture and Validation of Paced Visual Serial Addition Test (PVSAT) for an Iranian Population. Procedia Computer Science, 3, 138-143. doi: 10.1016/j.procs.2010.12.024
 
 de Leeuw, J. (2014). jsPsych: A JavaScript library for creating behavioral experiments in a Web browser. Behavior Research Methods, 47(1), 1-12. doi: 10.3758/s13428-014-0458-y
+
+Giordano, B., Susini, P., & Bresin, R. (2012). Perceptual evaluation of sound-producing objects. Dans Franinovic K., & Serafin S. (dirs), Sonic interaction design (pp. 171-219), MIT Press
