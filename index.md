@@ -57,7 +57,7 @@ identifications of naturalistic events but also mapping of stimulus set onto emo
 related categories such as “sad” or “happy”).
 During an identification/categorization experiment, participants are asked to assign
 each of the stimuli to one among a set of pre-specified verbal labels (e.g., “is this
-sound a violin, a guitar, or a flute tone?”). 
+sound a violin, a guitar, or a flute tone?”). (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 
 
@@ -86,7 +86,7 @@ manipulate the physical properties of a new stimulus so that its sensory magnitu
 equals a given number. 
 The rating method can be conceived as a variant of the magnitude estimation
 method : participants estimate the sensory magnitude by choosing an
-integer number within a prespecified range. 
+integer number within a prespecified range. (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 
 <hr>
@@ -98,7 +98,7 @@ integer number within a prespecified range.
 > The goal of the dissimilarity ratings method, also known as paired comparisons
 method, is to measure perceptual distances between the stimuli: very similar stimuli
 are separated by a short perceptual distance; very different or dissimilar stimuli are
-separated by a long perceptual distance. On each trial of a dissimilarity ratings experiment, participants are presented with two stimuli and are asked to rate how dissimilar they are on a “very similar” to “very dissimilar” scale. 
+separated by a long perceptual distance. On each trial of a dissimilarity ratings experiment, participants are presented with two stimuli and are asked to rate how dissimilar they are on a “very similar” to “very dissimilar” scale. (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 <hr>
 
@@ -118,7 +118,7 @@ With constrained sorting the number of groups is instead specified by
 the experimenter. 
 The participants can receive specific instructions about the criteria they should follow to group the stimuli together, or not. 
 When this is the case, sorting methods bear a strong resemblance to the categorization task, and if this isn't the case, the sorting
-task is the categorization analog of dissimilarity ratings.
+task is the categorization analog of dissimilarity ratings. (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 
 <hr>
@@ -131,7 +131,7 @@ task is the categorization analog of dissimilarity ratings.
 attributes of sound-interactive events: do users focus on the characteristic of the
 sound signal, on the characteristic of the source or on more abstract symbolic contents associated
 with the sound event ? 
-Verbalization can be free, or constrained.
+Verbalization can be free, or constrained. (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 <hr>
 
@@ -141,7 +141,7 @@ Verbalization can be free, or constrained.
 
 > Participants choose between two sounds in a pair wich one seems more adequately reflecting the descriptor associated.
 Example : Wich sound is the most <b>Low</b> for you : A or B ? 
-All the pairs without mutations are tested for all descriptors.
+All the pairs without mutations are tested for all descriptors. (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 <hr>
 
@@ -155,7 +155,7 @@ The main difference between the two methods indeed stands in the number of psych
 evaluated by the experiment participant: one for the latter, more than one for the
 former. 
 In the most popular variant of the semantic differential method, participants rate each stimulus along several bipolar scales defined by opposing semantic descriptors. 
-Each bipolar scale is usually divided in an odd number of intervals (e.g., seven). 
+Each bipolar scale is usually divided in an odd number of intervals (e.g., seven). (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 <hr>
 
@@ -184,7 +184,8 @@ In a paired preference comparison task, participants are presented with all the 
 and are asked to choose which of the two they prefer. 
 In a preference ranking task, participants are presented with all of the stimuli at once, and are asked to arrange
 them from the least to the most preferred. 
-With preference ratings, participants rate their preference for each of the stimuli on a categorical or continuous scale .
+With preference ratings, participants rate their preference for each of the stimuli on a categorical or continuous scale. 
+(Giordano, B., Susini, P., & Bresin, R., 2012)
 
 <hr>
 
@@ -197,7 +198,7 @@ With preference ratings, participants rate their preference for each of the stim
 > Participants in a continuous evaluation experiment are asked to repeatedly judge
 some perceptual/cognitive attribute as the stimulus unfolds in time (e.g., a musical
 composition or a soundscape).
-This jsPsych implementation use keyboards responses that can be pressed during the listening of the stimulus.
+This jsPsych implementation use keyboards responses that can be pressed during the listening of the stimulus. (Giordano, B., Susini, P., & Bresin, R., 2012)
 
 
 <hr>
