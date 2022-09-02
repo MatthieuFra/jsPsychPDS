@@ -65,7 +65,6 @@ sound a violin, a guitar, or a flute tone?”). (Giordano, B., Susini, P., & Bre
 
 ### Scaling and rating
 
-<b>TO ADD / NOT CURRENTLY AVAILABLE</b>
 
 [<b>[Code]</b>](https://github.com/MatthieuFra/jsPsychPDS/tree/main/demos-tasks/scaling-rating) [<b>[Demo]</b>](./demos-tasks/scaling-rating/experiment-demo.html)
 
