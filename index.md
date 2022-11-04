@@ -374,3 +374,7 @@ Hamidi, F., & Roohi, N. (2011). Manufacture and Validation of Paced Visual Seria
 de Leeuw, J. (2014). jsPsych: A JavaScript library for creating behavioral experiments in a Web browser. Behavior Research Methods, 47(1), 1-12. doi: 10.3758/s13428-014-0458-y
 
 Giordano, B., Susini, P., & Bresin, R. (2012). Perceptual evaluation of sound-producing objects. Dans Franinovic K., & Serafin S. (dirs), Sonic interaction design (pp. 171-219), MIT Press
+     
+     
+     
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CC_BY-SA_icon.svg/2560px-CC_BY-SA_icon.svg.png" style="width: 250px" alt="cc by sa">
