@@ -1,3 +1,4 @@
+  
 
 //test stimuli for the task
 var soundsHeadphonesTest = [
@@ -35,7 +36,7 @@ timeline.push(preload);
 //presentations of stimulis
 var taskHeadphonesPlays = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<p style="font-size:30px"><b>Lecture</b></p>`,
+    stimulus: `<p style="font-size:30px"><b>Playing</b></p>`,
     choices: ["NO_KEYS"],
     trial_duration: 5000,
     on_start: function(){
@@ -67,11 +68,11 @@ var taskHeadphonesTest = {
   type: jsPsychHtmlButtonResponse,
   on_start: function(){
   },
-  stimulus: "Lequel des trois sons que vous avez entendu a le niveau sonore le plus <b>faible</b> ?<hr>",
+  stimulus: "Which of the three sounds you heard has the <b>lowest</b> sound level?<hr>",
   choices: [
-    "Le premier son",
-    "Le second son",
-    "Le troisième",
+    "The first",
+    "The second",
+    "The third",
   ],
   on_finish: function(){
     currentAnswer = jsPsych.data.getLastTrialData().trials[0].response+1
@@ -120,7 +121,7 @@ var taskHeadphonesData = {
   },
   data: function(){
     return {
-          task: 'REPONSE SUJET',
+          task: 'RESPONSE SUJET',
           answer: `${currentAnswer}`,
           numbFalse: `${numbOfFalsesAnswers}`, 
           numbCorrect: `${numbOfCorrectsAnswers}`, 
@@ -139,9 +140,9 @@ var taskHeadphonesLoop = {
 
 };
 
-	
-	
-	
+  
+  
+  
 timeline.push(taskHeadphonesLoop);
-	
-	
+  
+  
