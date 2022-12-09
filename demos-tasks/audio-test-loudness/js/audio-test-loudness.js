@@ -1,12 +1,12 @@
 var audioTestLoudness = {
     type: jsPsychAudioButtonResponse,
-    stimulus: 'audio/bruitrose.wav',
-    choices: ['Continuer'],
+    stimulus: 'audio/pinknoise.wav',
+    choices: ['Continue'],
     response_allowed_while_playing: true,
-    prompt: ` <p>Réglez le volume de votre casque de façon confortable.<p>
-<p>Vous devez entendre clairement le son, et il ne doit être ni trop <strong>fort</strong> ni trop <strong>faible</strong>.</p>
-<p>Une fois le niveau réglé, veuillez ne plus le modifier jusqu'à la fin de l'expérience.</p>
+    prompt: ` <p>Adjust the volume of your headphones to a comfortable level.<p>
+<p>You should hear the sound clearly, and it should not be too <b>loud</b> or too <b>soft</b>.</p>
+<p>Once the level is set, please do not change it again until the end of the experiment.</p>
 `
 };
 
-timeline.push(audioTestLoudness);
+timeline.push(audioTestLoudness);   
