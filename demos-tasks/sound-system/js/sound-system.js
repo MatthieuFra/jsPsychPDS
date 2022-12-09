@@ -4,9 +4,9 @@ var trialSystem = {
   type: jsPsychSurveyMultiChoice,
   questions: [
     {
-      prompt: "Avec quel appareil écoutez-vous ?", 
+      prompt: "With which device do you listen ?", 
       name: 'soundSystem', 
-      options: ['Écouteurs', 'Casque', "Haut-parleur de l'ordinateur", 'Enceintes'], 
+      options: ['Earplugs', 'Headphones', "Laptop speakers", 'Hi-fi speakers'], 
       required: true
     }, 
   ],
@@ -19,4 +19,4 @@ var trialSystem = {
   
   
   
-timeline.push(trialSystem);  
+timeline.push(trialSystem); 
