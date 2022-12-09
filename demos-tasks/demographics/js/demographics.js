@@ -1,14 +1,14 @@
 var demographics = {
   type: jsPsychSurveyHtmlForm,
   preamble: `
-      <p style="font-size: 20px"><b>Questionnaire d'information</b></p><hr>
-      <p><i>Avant toute chose, nous avons besoins de quelques informations.</i></p>
+      <p style="font-size: 20px"><b>Information survey</b></p><hr>
+      <p><i>First of all, we need some basic information.</i></p>
   `,
   html: `
-  <p>Quel <b>âge</b> avez vous ?</p>
+  <p>What is your <b>age</b>?</p>
   <p><input name="first" type="number" size="30" required="true"/></p>
-  <p><label for="sexe">Quel est votre <b>sexe</b></label></p>
-<p><select id="sexe" name="sexe" size="1" required="true">
+  <p><label for="sex">What is your <b>sex</b>?</label></p>
+<p><select id="sex" name="sex" size="1" required="true">
   <option value="M">M</option>
   <option value="F">F</option>
 </select></p>
@@ -16,9 +16,9 @@ var demographics = {
   `,
   on_finish: function(){
     console.log(jsPsych.data.getLastTrialData().trials[0].response.first)
-    console.log(jsPsych.data.getLastTrialData().trials[0].response.sexe)
+    console.log(jsPsych.data.getLastTrialData().trials[0].response.sex)
     age = jsPsych.data.getLastTrialData().trials[0].response.first
-    sex = jsPsych.data.getLastTrialData().trials[0].response.sexe
+    sex = jsPsych.data.getLastTrialData().trials[0].response.sex
   },
 };
 
