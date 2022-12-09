@@ -1,7 +1,3 @@
-/* _______________________________________________________________________________________
-PARAMETRES */
-
-
 var sounds = [
    'audio/0_ACDC2.mp3',
    'audio/0_ACDC2.mp3',
@@ -44,20 +40,20 @@ var questions = [
         
         type: jsPsychHtmlButtonResponse,
         stimulus: `<p style="font-size: 25px">
-          <b>Début de l'évaluation</b><p>
+          <b>Start of the experiment</b><p>
           <hr>
-         <i>Merci de participer à cette évaluation.</i>
-         <p> Vous allez écouter <b>${numbSoundsEval}</b> sons sur lesquels nous allons vous demander de vous exprimer.</p>
+         <i>Thank for taking part in this experiment.</i>
+         <p>You're going to listen to <b>${numbSoundsEval}</b> sounds, on witch you will have to responds to several questions.</p>
           `,
         on_start: function(){
-          audio = new Audio('Audio/Silence.mp3');
+          audio = new Audio('audio/Silence.mp3');
           audio.loop = false;
           audio.play()
            },
         on_finish: function(){
            audio.pause()
         },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -74,16 +70,16 @@ var questions = [
     preamble: function(){
     
     return  `
-      <p style="font-size: 25px">Son <b>${q+1}</b></p><hr>
+      <p style="font-size: 25px">Sound <b>${q+1}</b></p><hr>
     
-      <i><p>Veuillez appuyer sur</i> 
-      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-      <i>pour écouter le son.</p></i>
+      <i><p>Please press the </i> 
+      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Space bar </span>,
+      <i>to listen to the sound.</p></i>
      
      
      
      <p style="color: white; font-size:10px">WWW</p>`},
-    button_label: ['Continuer'],
+    button_label: ['Continue'],
     questions: function(){
     
     return questions
@@ -132,7 +128,7 @@ var evalSound = {
       return false
     } else {
       console.log("soundListened: False")
-      alert("Vous devez écouter le son avant de répondre")
+      alert("You should listen to the sound before answer!")
       return true
     }
   },
@@ -163,5 +159,3 @@ var evalSound = {
   
   
  timeline.push(loopEvalSound);
- 
-  
