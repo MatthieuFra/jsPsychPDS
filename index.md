@@ -32,7 +32,7 @@ criminable difference in a stimulus attribute.
 <details>
   <summary>Visualize code :</summary>
 
-  ```js
+  <code>
   
     var preloadB = {
       
@@ -275,7 +275,7 @@ criminable difference in a stimulus attribute.
 timeline.push(loopTaskB);
 
   
-  ```
+</code>
                         
 </details>
      
