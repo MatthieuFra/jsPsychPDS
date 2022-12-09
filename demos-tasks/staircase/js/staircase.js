@@ -1,4 +1,5 @@
 
+
     var preloadB = {
       
       type: jsPsychPreload,
@@ -117,13 +118,13 @@
   type: jsPsychSurveyMultiChoice,
   questions: [
     {
-      prompt: "Choisissez la <b>fréquence</b> du stimuli <i>(Hz)</i> (not implemented yet)", 
+      prompt: "Choose the <b>frequency</b> of the stimulus <i>(Hz)</i> (not implemented yet)", 
       name: 'Freq', 
       options: [200, 500, 1000, 5000], 
       required: true
     }, 
     {
-      prompt: "Méthode adaptative (not implemented yet)", 
+      prompt: "Adaptative method (not implemented yet)", 
       name: 'Method', 
       options: ['Standard staircase', '3 up 2 down', 'Method 3', 'Method 4', 'Method 5'], 
       required: false
@@ -141,11 +142,11 @@
     var instructionsB = {
     type: jsPsychInstructions,
     pages: [
-    'Nous allons diffuser plusieurs sons, les uns à la suite des autres.',
-    'Vous devez dire si vous avez entendu le son joué ou non. ',
+    'We will play several sounds, one after the other.',
+    'You must say whether you heard the sound played or not.',
     ],
-    button_label_next: "Continuer",
-    button_label_previous: "Retour",
+    button_label_next: "Continue",
+    button_label_previous: "Return",
     show_clickable_nav: true,
     post_trial_gap: 100,
 }
@@ -154,8 +155,8 @@
       var startExpB = {
       
       type: jsPsychHtmlButtonResponse,
-      stimulus: "<p>Cliquez sur continuer pour lancer la tache.</p><hr><p></p>",
-      choices: ['Continuer'],
+      stimulus: "<p>Click on continue to launch the task.</p><hr><p></p>",
+      choices: ['Continue'],
       post_trial_gap: 1000,
     };
     
@@ -200,8 +201,8 @@
     
     var heardYesNo = {
         type: jsPsychHtmlButtonResponse,
-        stimulus: '<p style="font-size:28px; color:black;">Avez-vous entendu le son ?</p>',
-        choices: ['Oui', 'Non'],
+        stimulus: '<p style="font-size:28px; color:black;">Have you heard the sound ?</p>',
+        choices: ['Yes', 'No'],
         prompt: "<p></p>",
         on_finish: function(){
           soundHeard = jsPsych.data.getLastTrialData().trials[0].response
@@ -236,5 +237,6 @@
     },
 
   }
+  
   
 timeline.push(loopTaskB);
