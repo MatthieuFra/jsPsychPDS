@@ -1,4 +1,6 @@
-
+  
+  
+  
 //The sound to wich you're going to compare all others stimuli.
 var soundRef = 'audio/mrsl_base.wav';
 
@@ -28,8 +30,8 @@ var rtArray1 = [];
 //Add instructions
 var instructionsD = {
   type: jsPsychHtmlButtonResponse,
-  stimulus: `<p style="font-size:30px; color:black;"><b>Egalisation en sonie</b></p><hr><p><i>Pour chaque essai, deux sons vont vous être présentés successivement. Veuillez régler le volume du deuxième à l'aide du slider afin que les deux vous semblent être joués au même niveau sonore.</i><p>`,
-  choices: ["Continuer"]
+  stimulus: `<p style="font-size:30px; color:black;"><b>Sonic egalisation</b></p><hr><p><i>For each test, you will be presented with two sounds in succession. Please adjust the volume of the second sound with the slider so that both sounds seem to be played at the same level.</i><p>`,
+  choices: ["Continue"]
 };
 
 
@@ -38,13 +40,13 @@ var resultSlider;
 
 var sliderSoundEval = {
   type: jsPsychHtmlSliderResponse, //jsPsychAudioSliderResponse,
-  stimulus: `<i><p>Veuillez appuyer sur</i> 
-    <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-   <i>pour écouter les sons.</p></i><hr><p style="color: white; font-size:30px">WWW</p>`,//soundEval[q],
+  stimulus: `<i><p>Please press the</i> 
+    <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Space bar </span>,
+   <i>to listen to the sounds.</p></i><hr><p style="color: white; font-size:30px">WWW</p>`,//soundEval[q],
   labels: [],
-  button_label: ['Continuer'],
+  button_label: ['Continue'],
   prompt: `
-  <p>Déplacez le slider pour que vous ayez la sensation d'un même <b>niveau sonore</b> entre les deux sons.</p>
+  <p>Move the slider so that you feel the same <b>sound level</b> between the two sounds.</p>
   `,
 //  response_allowed_while_playing: true,
   require_movement: true,
@@ -137,7 +139,7 @@ var sliderSound = {
       return false
     } else {
       console.log("BAD")
-      alert("Vous devez écouter le son avant de répondre.")
+      alert("Listen to the sound before answering")
       return true
     }
   },
