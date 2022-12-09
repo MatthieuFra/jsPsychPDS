@@ -7,9 +7,9 @@ Sortie experience */
 
     var finexp1 = {
       type: jsPsychHtmlButtonResponse,
-      stimulus: `<p style="font-size:22px; color:black;">Fin de l'évaluation.</p><hr>
+      stimulus: `<p style="font-size:22px; color:black;">End of the experiment.</p><hr>
                 `,
-      choices: ["Continuer"],
+      choices: ["Continue"],
     };
     
 timeline.push(finexp1);
@@ -18,7 +18,7 @@ timeline.push(finexp1);
 var freeText = {
   type: jsPsychSurveyText,
   questions: [
-    {prompt: "Avez-vous une remarque concernant l'expérience ? Un souci rencontré ? Une suggestion ?", required: false, rows: 5}
+    {prompt: "Do you have any comments about the experience? A problem you encountered? A suggestion?", required: false, rows: 5}
   ],
 };
 
@@ -27,17 +27,17 @@ timeline.push(freeText);
     var finexp2 = {
       type: jsPsychHtmlButtonResponse,
       stimulus: `<p style="font-size:22px; color:black;">Contact :</p><hr>
-                <p>Si besoin vous pouvez contacter l'expérimentateur à l'adresse <b>${email}</b></p>`,
-      choices: ["Continuer"],
+                <p>If necessary you can contact the experimenter at <b>${email}</b></p>`,
+      choices: ["Continue"],
     };
     
 timeline.push(finexp2);
 
     var finexp = {
       type: jsPsychHtmlButtonResponse,
-      stimulus: `<p style="font-size:22px; color:black;">Merci d'avoir participé !</p><hr>
+      stimulus: `<p style="font-size:22px; color:black;">Thanks for your participation!</p><hr>
                 `,
-      choices: ["Terminer"],
+      choices: ["End the experiment"],
     };
     
 timeline.push(finexp);
