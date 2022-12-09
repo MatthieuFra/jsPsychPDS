@@ -1,6 +1,3 @@
-/* _______________________________________________________________________________________
-PARAMETRES */
-
 
 var sounds = [
    'audio/0_ACDC2.mp3',
@@ -48,11 +45,11 @@ var email = 'example@ircam.fr';
         
         type: jsPsychHtmlButtonResponse,
         stimulus: `<p style="font-size: 25px">
-          <b>Début de l'évaluation</b><p>
+          <b>Start of the experiment</b><p>
           <hr>
-         <i>Merci de participer à cette évaluation.</i>
-         <p> Vous allez écouter <b>${numbSoundsEval}</b> sons,</p>
-         <p>Selon <b>${numbDescripteursEval}</b> descripteurs.</p>
+         <i>Thank you for taking part in this experiment.</i>
+         <p>You're about to listen to <b>${numbSoundsEval}</b> sounds,</p>
+         <p>With <b>${numbDescripteursEval}</b> descriptors.</p>
           `,
         on_start: function(){
           audio = new Audio('audio/Silence.mp3');
@@ -62,7 +59,7 @@ var email = 'example@ircam.fr';
         on_finish: function(){
            audio.pause()
         },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -74,15 +71,15 @@ var email = 'example@ircam.fr';
         
         type: jsPsychHtmlButtonResponse,
         stimulus: function(){
-        return `<p style="font-size: 25px"><b>Nouveau descripteur</b><p><hr>
-        <p>Le descripteur est <b>${descripteurs[k]}</b></p>
-        <p><i><b>Définition : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
+        return `<p style="font-size: 25px"><b>New descriptor</b><p><hr>
+        <p>The descriptor is <b>${descripteurs[k]}</b></p>
+        <p><i><b>Definition : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
           `},
         on_start: function(){
            },
         on_finish: function(){
            },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -93,14 +90,14 @@ var email = 'example@ircam.fr';
           
           type: jsPsychHtmlButtonResponse,
           stimulus: function(){
-          return `<p style="font-size: 25px"><b>Fin série ${k+1}</b><p><hr>
-          <p>Prenez le temps d'une pause.</p>
+          return `<p style="font-size: 25px"><b>End serial ${k+1}</b><p><hr>
+          <p>Please take a break.</p>
             `},
           on_start: function(){
              },
           on_finish: function(){
              },
-          choices: ['Commencer une nouvelle série'],
+          choices: ['Start a new serial'],
           post_trial_gap: 0,
           
         };
@@ -117,21 +114,21 @@ var email = 'example@ircam.fr';
     stimulus: function(){
     
     return  `
-      <p style="font-size: 25px">Son <b>${q+1}</b></p><hr>
+      <p style="font-size: 25px">Sound <b>${q+1}</b></p><hr>
     
-      <i><p>Veuillez appuyer sur</i> 
-      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-      <i>pour écouter le son.</p></i>
+      <i><p>Please press the </i> 
+      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Space bar </span>,
+      <i>to listen to the sound.</p></i>
      
      
      
      <p style="color: white; font-size:10px">WWW</p>`},//soundEval[q],
     labels: ['0', '25', '50', '75', '100'],
-    button_label: ['Continuer'],
+    button_label: ['Continue'],
     prompt: function(){
     
     return `
-    <p>A quel point le son est <b>${descripteurs[k]}</b> ?</p>
+    <p>To wich extent does the sound is <b>${descripteurs[k]}</b> ?</p>
     `
       
     },
@@ -181,7 +178,7 @@ var sliderSound = {
       return false
     } else {
       console.log("soundListened: False")
-      alert("Vous devez écouter le son avant de répondre")
+      alert("Listen to the sound before answering!")
       return true
     }
   },
@@ -230,5 +227,3 @@ var sliderSound = {
   };
   
  timeline.push(loopSliderDescripteur);
- 
-  
