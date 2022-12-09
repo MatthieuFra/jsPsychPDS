@@ -1,9 +1,9 @@
 var audioTestStereo = {
     type: jsPsychAudioButtonResponse,
     stimulus: 'audio/test_stereo2.mp3',
-    choices: ['Continuer'],
+    choices: ['Continue'],
     response_allowed_while_playing: false,
-    prompt: "<p>Vérifiez que votre casque est bien positionné.</p><p>Vous devez entendre le chiffre <strong>1</strong> dans votre oreille gauche.<p><p>Vous devez entendre le chiffre <strong>2</strong> dans votre oreille droite.<p> "
+    prompt: "<p>Check that your headphones are correctly positioned.</p><p>You should hear the number <strong>1</strong> in your left ear.<p><p>You should hear the number <strong>2</strong> in your right ear.<p> "
 
 };
 
