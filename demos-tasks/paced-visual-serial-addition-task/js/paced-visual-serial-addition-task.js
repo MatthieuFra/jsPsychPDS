@@ -1,32 +1,24 @@
 
+
    // If same array for all experiment. 
    var sounds = [
-     '0_ACDC.mp3',
+     'audio/0_ACDC.mp3',
      ];
  
     var resultsOp = [
      '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11','12', '13', '14', '15', '16', '17', '18'];
  
-    var randomOrNot; // true/false pour randomizer
+    var randomOrNot; // true/false for randomizing or not
     
-    var timeDisplayNumb = 1000; // Le temps de présentation des chiffres.
-    var timeDisplayBlank = 1000; // Le temps de blanc entre les deux.
-    var timeDisplayResp = 3000; // Le temps pour répondre.
-    var timeDisplayFeedback = 1000; //Le temps qui affiche le blanc ou "trop tard".
-    var numbOperation = 10; //Nombre d'opération par série
-    var numbSerie = 2; //Combien de séries
+    var timeDisplayNumb = 1000; // Digts time presentation
+    var timeDisplayBlank = 1000; // ISI between the two digits.
+    var timeDisplayResp = 3000; // Time to respond.
+    var timeDisplayFeedback = 1000; //Time of blank screen or "too late"
+    var numbOperation = 10; //Number of operations per serial
+    var numbSerie = 2; //How many series
 
 /* _______________________________________________________________________________________
 CODE EXPE */
-
-var test = {
-      type: jsPsychHtmlButtonResponse,
-      stimulus: `<p style="font-size:22px; color:black;">TEMPORAIRE</p><hr>
-                `,
-      choices: ["Continuer"],
-    };
-    
-timeline.push(test);
 
 
 var opA = null;
@@ -203,7 +195,7 @@ var task2 = {
        type: jsPsychHtmlKeyboardResponse,
        stimulus: function(){
          if(isCorrect === null){
-           return `<p style="font-size: 30px"><b>Trop tard !</b></p>`
+           return `<p style="font-size: 30px"><b>Too late !</b></p>`
          } else {
            return `<p style="font-size: 70px"><b> </b></p>`
          }
@@ -227,10 +219,10 @@ var loopi = 1;
 var pause2 = {
       
       type: jsPsychHtmlButtonResponse,
-      stimulus: `<p style="font-size:25px; color:black;">Fin de la série</p><hr>
-                 <p>Prenez le temps de faire une petite pause.</p>
-                 <p>Lorsque vous êtes prêts, cliquez sur <strong>continuer</strong> pour relancer une série.</p><p></p>`,
-      choices: ['Nouvelle série'],
+      stimulus: `<p style="font-size:25px; color:black;">End of the serial</p><hr>
+                 <p>Please take a short break.</p>
+                 <p>When you are ready, click <strong>continue</strong> to restart a serial.</p><p></p>`,
+      choices: ['New serial'],
     };
 
 var loopTask = {
