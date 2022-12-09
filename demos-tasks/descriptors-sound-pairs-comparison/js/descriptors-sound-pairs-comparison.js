@@ -1,8 +1,3 @@
-  
-
-  /* _______________________________________________________________________________________
-PARAMETRES */
-
 
 var sounds = [
    'audio/400.wav',
@@ -71,10 +66,10 @@ console.log(pairsArray)
         
         type: jsPsychHtmlButtonResponse,
         stimulus: `<p style="font-size: 25px">
-          <b>Début de l'évaluation</b><p>
+          <b>Start of the evaluation</b><p>
           <hr>
-         <i>Merci de participer à cette évaluation.</i>
-         <p>Vous allez écouter <b>${numbSoundsEval}</b> sons sous la forme de <b>${numbSoundsEvalPairs}</b> paires de sons, selon <b>${numbDescripteursEval}</b> descripteurs.</p>
+         <i>Thanks for taking part in this study.</i>
+         <p>You're about to listen to <b>${numbSoundsEval}</b> sounds, displayed by <b>${numbSoundsEvalPairs}</b> pairs, with <b>${numbDescripteursEval}</b> descriptors.</p>
           `,
         on_start: function(){
           audio = new Audio('audio/Silence.mp3');
@@ -84,7 +79,7 @@ console.log(pairsArray)
         on_finish: function(){
            audio.pause()
         },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -96,15 +91,15 @@ console.log(pairsArray)
         
         type: jsPsychHtmlButtonResponse,
         stimulus: function(){
-        return `<p style="font-size: 25px"><b>Nouveau descripteur</b><p><hr>
-        <p>Le descripteur est <b>${descripteurs[k]}</b></p>
-        <p><i><b>Définition : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
+        return `<p style="font-size: 25px"><b>New descriptor</b><p><hr>
+        <p>The new descriptor is <b>${descripteurs[k]}</b></p>
+        <p><i><b>Definition : </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
           `},
         on_start: function(){
            },
         on_finish: function(){
            },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -115,14 +110,14 @@ console.log(pairsArray)
           
           type: jsPsychHtmlButtonResponse,
           stimulus: function(){
-          return `<p style="font-size: 25px"><b>Fin série ${k+1}</b><p><hr>
-          <p>Prenez le temps d'une pause.</p>
+          return `<p style="font-size: 25px"><b>End of serial ${k+1}</b><p><hr>
+          <p>Please take a break.</p>
             `},
           on_start: function(){
              },
           on_finish: function(){
              },
-          choices: ['Commencer une nouvelle série'],
+          choices: ['Begin a new serial'],
           post_trial_gap: 0,
           
         };
@@ -140,20 +135,20 @@ console.log(pairsArray)
     stimulus: function(){
     
     return  `
-      <p style="font-size: 25px">Paire <b>${q+1}</b></p><hr>
+      <p style="font-size: 25px">Pair <b>${q+1}</b></p><hr>
     
-      <i><p>Veuillez appuyer sur</i> 
-      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-      <i>pour écouter les deux sons.</p></i>
+      <i><p>Please click on the </i> 
+      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Space bar</span>,
+      <i>to listen the two sounds.</p></i>
       <p style="color: white, font-size: 50px"></p>
       <hr>
 
-      <p>Quel est le son le plus <b>${descripteurs[k]}</b> ?</p>
+      <p>Wich sound is the most <b>${descripteurs[k]}</b> ?</p>
      
      
      
      <p style="color: white; font-size:10px">WWW</p>`},
-    choices: ["Son A", "Son B"],   
+    choices: ["Sound A", "Sound B"],   
     on_start: function(){
       
         keyPress1 = null
@@ -204,7 +199,7 @@ var evalSound = {
       return false
     } else {
       console.log("soundListened: False")
-      alert("Vous devez écouter le son avant de répondre")
+      alert("You must listen the sounds before answer !")
       return true
     }
   },
@@ -220,11 +215,11 @@ var evalSound = {
     loop_function: function(){
       if(q < numbSoundsEvalPairs-1){
         q++
-        console.log(`Son ${q+1} : ${sounds[q]}`)
+        console.log(`Sound ${q+1} : ${sounds[q]}`)
         return true
       } else {
         q = 0
-        console.log('Fin boucle des son')
+        console.log('End sounds loop')
         return false 
        }
       },
@@ -241,11 +236,11 @@ var evalSound = {
     loop_function: function(){
       if(k < numbDescripteursEval-1){
         k++
-        console.log(`Descripteur ${k+1} : ${descripteurs[k]}`)
+        console.log(`Descriptor ${k+1} : ${descripteurs[k]}`)
         return true
       } else {
         k = 0
-        console.log('Fin boucle totale descripteurs')
+        console.log('End total loop descriptors')
         return false 
        }
       },
@@ -255,4 +250,3 @@ var evalSound = {
   };
   
  timeline.push(loopSliderDescripteur);
-  
