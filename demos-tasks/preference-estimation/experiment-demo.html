@@ -126,10 +126,10 @@ console.log(pairsArray)
         
         type: jsPsychHtmlButtonResponse,
         stimulus: `<p style="font-size: 25px">
-          <b>Début de l'évaluation</b><p>
+          <b>Start of the experiment</b><p>
           <hr>
-         <i>Merci de participer à cette évaluation.</i>
-         <p> Vous allez écouter <b>${numbSoundsEval}</b> sons sous la forme de <b>${numbSoundsEvalPairs}</b> paires de sons.</p>
+         <i>Thank you for taking part in this experiment.</i>
+         <p>You're about to listen to <b>${numbSoundsEval}</b> sounds, displayed in <b>${numbSoundsEvalPairs}</b> sounds pairs.</p>
           `,
         on_start: function(){
           audio = new Audio('audio/Silence.mp3');
@@ -139,7 +139,7 @@ console.log(pairsArray)
         on_finish: function(){
            audio.pause()
         },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -156,20 +156,20 @@ console.log(pairsArray)
     stimulus: function(){
     
     return  `
-      <p style="font-size: 25px">Paire <b>${q+1}</b></p><hr>
+      <p style="font-size: 25px">Pair <b>${q+1}</b></p><hr>
     
-      <i><p>Veuillez appuyer sur</i> 
-      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-      <i>pour écouter les deux sons.</p></i>
+      <i><p>Please press the </i> 
+      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Space bar </span>,
+      <i>to listen to the sounds.</p></i>
       <p style="color: white, font-size: 50px"></p>
       <hr>
 
-      <p>Quel est le son que vous <b>préférez</b> ?</p>
+      <p>Wich sound do you <b>prefer</b> ?</p>
      
      
      
      <p style="color: white; font-size:10px">WWW</p>`},
-    choices: ["Son A", "Son B"],   
+    choices: ["Sound A", "Sound B"],   
     on_start: function(){
       
         keyPress1 = null
@@ -220,7 +220,7 @@ var evalSound = {
       return false
     } else {
       console.log("soundListened: False")
-      alert("Vous devez écouter le son avant de répondre")
+      alert("Please listen to the sound before answering")
       return true
     }
   },
