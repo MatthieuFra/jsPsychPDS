@@ -1,14 +1,6 @@
-  
-
-  /* _______________________________________________________________________________________
-PARAMETRES */
-
-
 var sounds = [
    'audio/400.wav',
-   'audio/800.wav',
    'audio/1400.wav',
-   'audio/3000.wav',
    'audio/6000.wav',
   ];
   
@@ -64,10 +56,10 @@ console.log(pairsArray)
         
         type: jsPsychHtmlButtonResponse,
         stimulus: `<p style="font-size: 25px">
-          <b>Début de l'évaluation</b><p>
+          <b>Start of the evaluation</b><p>
           <hr>
-         <i>Merci de participer à cette évaluation.</i>
-         <p> Vous allez écouter <b>${numbSoundsEval}</b> sons sous la forme de <b>${numbSoundsEvalPairs}</b> paires de sons.</p>
+         <i>Thanks for taking part in this study.</i>
+         <p>You're about to listen to <b>${numbSoundsEval}</b> sounds, displayed by <b>${numbSoundsEvalPairs}</b> pairs.
           `,
         on_start: function(){
           audio = new Audio('audio/Silence.mp3');
@@ -77,7 +69,7 @@ console.log(pairsArray)
         on_finish: function(){
            audio.pause()
         },
-        choices: ['Continuer'],
+        choices: ['Continue'],
         post_trial_gap: 0,
         
       };
@@ -96,18 +88,18 @@ console.log(pairsArray)
     return  `
       <p style="font-size: 25px">Paire <b>${q+1}</b></p><hr>
     
-      <i><p>Veuillez appuyer sur</i> 
-      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Barre espace</span>,
-      <i>pour écouter les deux sons.</p></i>
+      <i><p>Please press the </i> 
+      <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">Space bar</span>,
+      <i>to listen to the two sounds.</p></i>
       <p style="color: white, font-size: 50px"></p>
       <hr>
 
-      <p>A quel point trouvez vous que ces deux sons sont <b>semblables</b> ?</p>
+      <p>How <b>similar</b> do you think these two sounds are? ?</p>
      
      
      
      <p style="color: white; font-size:10px">WWW</p>`},
-    labels: ["Dissemblables", "Semblables"],   
+    labels: ["Not similar", "Very similar"],   
     require_movement: true,
     slider_start: function(){
       return Math.floor(Math.random()*100)
@@ -162,7 +154,7 @@ var evalSound = {
       return false
     } else {
       console.log("soundListened: False")
-      alert("Vous devez écouter le son avant de répondre")
+      alert("You must listen to the sound before answer!")
       return true
     }
   },
@@ -178,11 +170,11 @@ var evalSound = {
     loop_function: function(){
       if(q < numbSoundsEvalPairs-1){
         q++
-        console.log(`Son ${q+1} : ${sounds[q]}`)
+        console.log(`Sound ${q+1} : ${sounds[q]}`)
         return true
       } else {
         q = 0
-        console.log('Fin boucle des son')
+        console.log('End sounds loop')
         return false 
        }
       },
@@ -194,8 +186,6 @@ var evalSound = {
   
  timeline.push(loopEvalSound);
  
-  
-  
   
   
   
