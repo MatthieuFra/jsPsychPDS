@@ -1,14 +1,13 @@
-
-     var numberOfSounds
+var numberOfSounds
       
      var startEtape1 = {
       
       type: jsPsychHtmlButtonResponse,
       //prompt: "<p></p><b>Etape 1</b>",
-      stimulus: `<p style="font-size:25px; color:black;">Pré-test d'écoute</p><hr>
-                 <p><i>Dans un premier temps, vérifions que vous pouvez entendre correctement sur votre appareil d'écoute.</i></p>
-                 <p>Veuillez cliquer sur <strong>continuer</strong></p><p></p>`,
-      choices: ['Continuer'],
+      stimulus: `<p style="font-size:25px; color:black;">Hearing</p><hr>
+                 <p><i>First, let's check that you can hear properly on your listening device.</i></p>
+                 <p>Please click on <strong>continue</strong></p><p></p>`,
+      choices: ['Continue'],
       on_finish: function(){
         numberOfSounds = Math.floor((Math.random()*(8))+2);
         console.log(`result randomization: ${numberOfSounds}`);
@@ -23,10 +22,10 @@ var startEtape3 = {
       type: jsPsychHtmlButtonResponse,
       //prompt: "<p></p><b>Etape 1</b>",
       stimulus: `
-                 <p><i>Une suite de sons va maintenant vous être présentée.</i></p>
-                 <p><i>Veuillez compter le nombre de sons que vous entendez.</i></p>
-                 <p>Appuyer sur <strong>commencer</strong>.</p><p></p>`,
-      choices: ['Commencer'],
+                 <p><i>A sequence of sounds will now be played.</i></p>
+                 <p><i>Please count the number of sounds you hear.</i></p>
+                 <p>Click on <strong>begin</strong>.</p><p></p>`,
+      choices: ['Begin'],
       on_finish: function(){
         numberOfSounds = 5;//Math.floor((Math.random()*(1))+2);
         console.log(`result randomization: ${numberOfSounds}`);
@@ -132,7 +131,7 @@ var startEtape3 = {
     var trial1 = {
      type: jsPsychSurveyText,
      questions: [
-       {prompt: 'Combien de sons avez-vous entendu ?', name: 'numberHeard', required: true},
+       {prompt: 'How many sounds have you heard?', name: 'numberHeard', required: true},
       ],
       on_finish: function() { 
     //  console.log(jsPsych.data.getLastTrialData())
@@ -147,9 +146,8 @@ var startEtape3 = {
         };
       },
       data: {
-        task: 'REPONSE'
+        task: 'RESPONSE'
       }
     };
 
-timeline.push(trial1);  
-
+timeline.push(trial1); 
