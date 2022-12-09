@@ -81,10 +81,10 @@ var timeline = [];
 
 
     var soundBWS = [
-      'Son <b>1</b>',
-      'Son <b>2</b>',
-      'Son <b>3</b>',
-      'Son <b>4</b>'
+      'Sound <b>1</b>',
+      'Sound <b>2</b>',
+      'Sound <b>3</b>',
+      'Sound <b>4</b>'
       ];
 
     var maxdiff_page = {
@@ -92,28 +92,28 @@ var timeline = [];
     alternatives: soundBWS,
     labels: ['<p style="font-size: 30px">-</p>', '<p style="font-size: 30px">+</p>'],
     preamble: `
-      <i><p>Veuillez appuyer sur</i> 
+      <i><p>Please click on</i> 
       <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">1</span>,
        <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">2</span>,
        <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">3</span>
        <i>et</i>
        <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 12px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;">4</span>
       </p>
-      <p><i>pour écouter les différents sons.</p></i><hr>
-      <p style="font-size: 20px">Quel est le son le <b>plus</b> amical?</p>
-      <p style="font-size: 20px">Quel est le son le <b>moins</b> amical?</p>
+      <p><i>to listen to the different sounds.</p></i><hr>
+      <p style="font-size: 20px">What is the <b>most</b> friendly sound?</p>
+      <p style="font-size: 20px">What is the <b>least</b> friendly sound?</p>
       <hr>
   `,
      required: true,
      randomize_alternative_order: true,
-     button_label: 'Continuer',
+     button_label: 'Continue',
      post_trial_gap: 500,
      on_start: function() {
        
         keyPress1 = null
         rtKey1 = null
         var press1 = function(info){
-        console.log("Touche 1 pressée à " + info.rt +  " ms")
+        console.log("Touch 1 pressed at " + info.rt +  " ms")
         keyPress1 = true
         rtArray1.push(info.rt)
         rtKey1 = info.rt
@@ -125,7 +125,7 @@ var timeline = [];
         keyPress2 = null
         rtKey2 = null
         var press2 = function(info){
-        console.log("Touche 2 pressée à " + info.rt +  " ms")
+        console.log("Touch 2 pressed at " + info.rt +  " ms")
         keyPress2 = true
         rtArray2.push(info.rt)
         rtKey2 = info.rt
@@ -137,7 +137,7 @@ var timeline = [];
         keyPress3 = null
         rtKey3 = null
         var press3 = function(info){
-        console.log("Touche 3 pressée à " + info.rt +  " ms")
+        console.log("Touch 3 pressed at " + info.rt +  " ms")
         keyPress3 = true
         rtArray3.push(info.rt)
         rtKey3 = info.rt
@@ -149,7 +149,7 @@ var timeline = [];
         keyPress4 = null
         rtKey4 = null
         var press4 = function(info){
-        console.log("Touche 4 pressée à " + info.rt +  " ms")
+        console.log("Touch 4 pressed at " + info.rt +  " ms")
         keyPress4 = true
         rtArray4.push(info.rt)
         rtKey4 = info.rt
