@@ -20,9 +20,9 @@ var uniqueID;
     var displayGen = {
       type: jsPsychHtmlButtonResponse,
       stimulus: function(){
-        return `<p>Exemple de numéro:</p><p style="font-size: 30px">${uniqueID}</p><hr>`
+        return `<p>Example of subject number:</p><p style="font-size: 30px">${uniqueID}</p><hr>`
       },
-      choices: ['Continuer']
+      choices: ['Continue']
     };
 
     timeline.push(displayGen);
