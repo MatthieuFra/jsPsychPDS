@@ -39,6 +39,17 @@ var timeline = [];
 // ADD CODE BELOW -------------------------------------------------------------------------------------------------------------
 
 
+/*
+20230317 : 
+
+To add: 
+- The loop incrementing across all video pairs 
+- The data part filling with correct informations 
+- ISI with fixation cross
+- Clean everything up! 
+
+
+*/
   /* _______________________________________________________________________________________
 PARAMETRES */
 
@@ -126,8 +137,10 @@ var test = {
 
 timeline.push(test)
 
+// a few variables used in the code in order to check answers of the participants.
  var rep;
  var whitchVideo = ['','']; 
+ var viewedVideo = [false,false]; 
 
 
  var videoTask = {
@@ -213,19 +226,48 @@ timeline.push(test)
   var loopVideoTask = {
     timeline: [videoTask],
     loop_function: function(){
-
+      console.log(`videos ${viewedVideo}`)
       if(rep === 'A' || rep === 'a'){
-        console.log(`Response is A, no Loop!`)
-        return false
-      } else if(rep === 'B' || rep === 'b'){
+        if(viewedVideo[0] === true && viewedVideo[1] === true){
+          console.log(`Response is A, viewedVideo is true no Loop!`)
+            viewedVideo[0] = false
+            viewedVideo[1] = false
+            console.log(`Reset viewedcheck`)
+          return false
+        } else {
+          alert("Vous devez regarder les deux vidéos avant de répondre !")
+          console.log('Not both video viewed!')
 
-        console.log(`Response is B, no Loop!`)
-        return false
+          whitchVideo[0] = ''
+          whitchVideo[1] = ''
+          console.log(whitchVideo)
+
+          return true
+        }
+      } else if(rep === 'B' || rep === 'b'){
+        if(viewedVideo[0] === true && viewedVideo[1] === true){
+          console.log(`Response is B, viewedVideo is true no Loop!`)
+            viewedVideo[0] = false
+            viewedVideo[1] = false
+            console.log(`Reset viewedcheck`)
+          return false
+        } else {
+          alert("Vous devez regarder les deux vidéos avant de répondre !")
+          console.log('Not both video viewed!')
+
+          whitchVideo[0] = ''
+          whitchVideo[1] = ''
+          console.log(whitchVideo)
+          return true
+        }
       } else if(rep === 'arrowleft'){
 
         whitchVideo[0] = 'autoplay'
         whitchVideo[1] = ''
         console.log(whitchVideo)
+
+        viewedVideo[0] = true
+        console.log(viewedVideo)
 
         console.log(`Response is Left, Loop!`)
         return true
@@ -234,6 +276,9 @@ timeline.push(test)
         whitchVideo[0] = ''
         whitchVideo[1] = 'autoplay'
         console.log(whitchVideo)
+
+        viewedVideo[1] = true
+        console.log(viewedVideo)
 
         console.log(`Response is Right, Loop!`)
         return true
