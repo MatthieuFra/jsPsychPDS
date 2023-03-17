@@ -24,6 +24,7 @@ var jsPsych = initJsPsych({
       //show_progress_bar: true,
       on_finish: function() {
       //jsPsych.data.displayData(); 
+        jsPsych.data.get().localSave('csv','mydata.csv');
        },
       on_trial_start: function() {
        },
@@ -222,6 +223,10 @@ timeline.push(test)
   //  timeline.push(videoTask);
 
 
+  var preloadBeforeTask = {
+
+  };
+
 
   var loopVideoTask = {
     timeline: [videoTask],
@@ -233,15 +238,16 @@ timeline.push(test)
             viewedVideo[0] = false
             viewedVideo[1] = false
             console.log(`Reset viewedcheck`)
+            whitchVideo[0] = ''
+            whitchVideo[1] = ''
+            console.log(whitchVideo)
           return false
         } else {
           alert("Vous devez regarder les deux vidéos avant de répondre !")
           console.log('Not both video viewed!')
-
           whitchVideo[0] = ''
           whitchVideo[1] = ''
           console.log(whitchVideo)
-
           return true
         }
       } else if(rep === 'B' || rep === 'b'){
@@ -250,45 +256,80 @@ timeline.push(test)
             viewedVideo[0] = false
             viewedVideo[1] = false
             console.log(`Reset viewedcheck`)
+            whitchVideo[0] = ''
+            whitchVideo[1] = ''
+            console.log(whitchVideo)
           return false
         } else {
           alert("Vous devez regarder les deux vidéos avant de répondre !")
           console.log('Not both video viewed!')
-
           whitchVideo[0] = ''
           whitchVideo[1] = ''
           console.log(whitchVideo)
           return true
         }
       } else if(rep === 'arrowleft'){
-
         whitchVideo[0] = 'autoplay'
         whitchVideo[1] = ''
         console.log(whitchVideo)
-
         viewedVideo[0] = true
         console.log(viewedVideo)
-
         console.log(`Response is Left, Loop!`)
         return true
       } else if(rep === 'arrowright'){
-
         whitchVideo[0] = ''
         whitchVideo[1] = 'autoplay'
         console.log(whitchVideo)
-
         viewedVideo[1] = true
         console.log(viewedVideo)
-
         console.log(`Response is Right, Loop!`)
         return true
       }
     },
   };
 
-  timeline.push(loopVideoTask);
+  //timeline.push(loopVideoTask);
 
+  var interTrial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style="font-size: 70px">+</p>`,
+    choices: ["NO_KEYS"],
+    trial_duration: 2000,
+    data: function(){
+      return {
+        task: 'REPONSE SUJET',
+        videoShowed: 'dddd',
+        videoChoosed: 'left',
+      }
+    }
+  };
+
+  //to increment in the main loop
+  var i = 0; 
   
+  var loopTask = {
+    timeline: [
+      //preloadBeforeTask
+      loopVideoTask,
+      interTrial,
+      ],
+    loop_function: function(){
+      console.log(i)
+      if(i < 10){
+        i++
+        console.log(`i = ${i}`)
+        return true
+      } else {
+        i = 0
+        console.log(`Loop is over`)
+        return false
+      }
+    },
+  };
+
+  timeline.push(loopTask)
+
+
 
   //demo instructions
   var preTask = {
