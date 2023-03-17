@@ -127,6 +127,7 @@ var test = {
 timeline.push(test)
 
  var rep;
+ var whitchVideo = ['','']; 
 
 
  var videoTask = {
@@ -149,11 +150,11 @@ timeline.push(test)
 
             <div style="display: flex; justify-content: space-between;"">
 
-                <video width="320" height="240" autoplay>
+                <video width="320" height="240" ${whitchVideo[0]}>
                    <source src="vid/TEST1.mp4" type="video/mp4">
                 </video>
 
-                <video width="320" height="240" >
+                <video width="320" height="240" ${whitchVideo[1]}>
                    <source src="vid/TEST1.mp4" type="video/mp4">
                 </video>
 
@@ -222,9 +223,17 @@ timeline.push(test)
         return false
       } else if(rep === 'arrowleft'){
 
+        whitchVideo[0] = 'autoplay'
+        whitchVideo[1] = ''
+        console.log(whitchVideo)
+
         console.log(`Response is Left, Loop!`)
         return true
       } else if(rep === 'arrowright'){
+
+        whitchVideo[0] = ''
+        whitchVideo[1] = 'autoplay'
+        console.log(whitchVideo)
 
         console.log(`Response is Right, Loop!`)
         return true
