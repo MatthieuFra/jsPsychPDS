@@ -38,7 +38,80 @@ var timeline = [];
   
 // ADD CODE BELOW -------------------------------------------------------------------------------------------------------------
 
-  
+
+ var videoTask = {
+        
+        type: jsPsychHtmlButtonResponse,
+        stimulus: function(){
+          return `<p style="font-size: 25px">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style="display: flex; justify-content: space-between;"">
+
+                <video width="320" height="240" controls>
+                   <source src="vid/TEST1.mp4" type="video/mp4">
+                </video>
+
+                <video width="320" height="240" controls>
+                   <source src="vid/TEST1.mp4" type="video/mp4">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style="font-size: 15px">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;"><b style="font-size: 18px">←</b></span>
+          
+          <span style="font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;"><b style="font-size: 18px">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style="font-size: 20px">
+            <b>Réponse</b>
+          </p>
+
+
+          `
+        },
+        button_html:[
+          '<button class="jspsych-btn" style = "position:absolute; left:450px; top: 680px">%choice%</button>', '<button class="jspsych-btn" style = "position:absolute; right:450px; top: 680px">%choice%</button>'], 
+        prompt: ``,
+        on_start: function(){
+           },
+        on_finish: function(){
+        },
+        choices: ['Vidéo A', 'Vidéo B'],
+        post_trial_gap: 0,
+        
+      };
+      
+    timeline.push(videoTask);
+
+
+// How to add placeholder already ?
+
+    
+
+
  var startDemo = {
       
       type: jsPsychHtmlButtonResponse,
