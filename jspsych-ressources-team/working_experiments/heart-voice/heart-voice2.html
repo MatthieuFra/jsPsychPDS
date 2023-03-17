@@ -212,22 +212,19 @@ timeline.push(test)
   var loopVideoTask = {
     timeline: [videoTask],
     loop_function: function(){
-      
-      console.log(rep)
 
-      if(rep ==='A' || 'a'){
-
+      if(rep === 'A' || rep === 'a'){
         console.log(`Response is A, no Loop!`)
         return false
-      } else if(rep === 'B' || 'b'){
+      } else if(rep === 'B' || rep === 'b'){
 
         console.log(`Response is B, no Loop!`)
         return false
-      } else if(rep === 'ArrowLeft'){
+      } else if(rep === 'arrowleft'){
 
         console.log(`Response is Left, Loop!`)
         return true
-      } else if(rep === 'ArrowRight'){
+      } else if(rep === 'arrowright'){
 
         console.log(`Response is Right, Loop!`)
         return true
