@@ -1,0 +1,1017 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","rt","stimulus","response","task","videoShowed","videoChoosed"
+"true","false","[]","[]","[]","preload","0","2","0.0-0.0","","","","","",""
+"","","","","","html-button-response","1","1481","0.0-1.0","1477","Démonstration","0","","",""
+"","","","","","html-keyboard-response","2","6685","0.0-2.0-0.0-0.0","5200","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowright","","",""
+"","","","","","html-keyboard-response","3","8163","0.0-2.0-0.1-0.1","1476","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowleft","","",""
+"","","","","","html-keyboard-response","4","9864","0.0-2.0-0.2-0.2","1699","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","a","","",""
+"","","","","","html-keyboard-response","5","11874","0.0-2.0-1.0","null","<p style=""font-size: 70px"">+</p>","null","REPONSE SUJET","vid/TEST1.mp4,vid/TEST1.mp4","vid/TEST1.mp4"
+"","","","","","html-keyboard-response","6","12832","0.0-2.1-0.3-0.3","956","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowright","","",""
+"","","","","","html-keyboard-response","7","14533","0.0-2.1-0.4-0.4","1700","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowleft","","",""
+"","","","","","html-keyboard-response","8","16394","0.0-2.1-0.5-0.5","1859","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","a","","",""
+"","","","","","html-keyboard-response","9","18398","0.0-2.1-1.1","null","<p style=""font-size: 70px"">+</p>","null","REPONSE SUJET","vid/TEST1.mp4,vid/TEST1.mp4","vid/TEST1.mp4"
+"","","","","","html-keyboard-response","10","18978","0.0-2.2-0.6-0.6","579","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowright","","",""
+"","","","","","html-keyboard-response","11","20674","0.0-2.2-0.7-0.7","1689","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowleft","","",""
+"","","","","","html-keyboard-response","12","22335","0.0-2.2-0.8-0.8","1660","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","b","","",""
+"","","","","","html-keyboard-response","13","24342","0.0-2.2-1.2","null","<p style=""font-size: 70px"">+</p>","null","REPONSE SUJET","vid/TEST1.mp4,vid/TEST1.mp4","vid/TEST1.mp4"
+"","","","","","html-keyboard-response","14","25244","0.0-2.3-0.9-0.9","900","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowright","","",""
+"","","","","","html-keyboard-response","15","26653","0.0-2.3-0.10-0.10","1404","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowleft","","",""
+"","","","","","html-keyboard-response","16","28316","0.0-2.3-0.11-0.11","1662","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","b","","",""
+"","","","","","html-keyboard-response","17","30330","0.0-2.3-1.3","null","<p style=""font-size: 70px"">+</p>","null","REPONSE SUJET","vid/TEST1.mp4,vid/TEST1.mp4","vid/TEST1.mp4"
+"","","","","","html-keyboard-response","18","31165","0.0-2.4-0.12-0.12","828","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowright","","",""
+"","","","","","html-keyboard-response","19","32913","0.0-2.4-0.13-0.13","1747","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowleft","","",""
+"","","","","","html-keyboard-response","20","34539","0.0-2.4-0.14-0.14","1624","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","b","","",""
+"","","","","","html-keyboard-response","21","36541","0.0-2.4-1.4","null","<p style=""font-size: 70px"">+</p>","null","REPONSE SUJET","vid/TEST1.mp4,vid/TEST1.mp4","vid/TEST1.mp4"
+"","","","","","html-keyboard-response","22","37238","0.0-2.5-0.15-0.15","696","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowleft","","",""
+"","","","","","html-keyboard-response","23","38882","0.0-2.5-0.16-0.16","1643","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","arrowright","","",""
+"","","","","","html-keyboard-response","24","40621","0.0-2.5-0.17-0.17","1737","<p style=""font-size: 25px"">
+
+           <b>Début de l'évaluation</b></p>
+
+           <hr>
+
+           <p>Vous allez visionner deux vidéos différentes avec une paire voix et rythme cardiaque.</p>
+
+           <p>Indiquez quelle paire vous parait être la plus associée.</p>
+
+           <hr>
+
+           
+
+            <div style=""display: flex; justify-content: space-between;"""">
+
+                <video width=""320"" height=""240"" >
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+                <video width=""320"" height=""240"" autoplay>
+                   <source src=""vid/TEST1.mp4"" type=""video/mp4"">
+                </video>
+
+          </div>
+
+          <hr>
+
+           <p style=""font-size: 15px"">
+            <i>
+              Utilisez les flèches du clavier pour visionner les vidéos. 
+            </i>
+          </p>
+
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">←</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">→</b></span>
+    
+      <p></p>
+
+          <hr>
+
+          <p style=""font-size: 20px"">
+            <b>Réponse</b>
+          </p>
+          <p style=""font-size: 15px"">
+            <i>
+              Appuyez sur les touches suivantes pour répondre :
+            </i>
+          </p>
+
+           <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">A</b></span>
+          
+          <span style=""font-size:15px;border: 1px solid #ccc; line-height: 1.4;color: #333;padding: 7.5px 20px; font-family: sans-serif; background-color: white; margin: 5px; border-radius: 5px;""><b style=""font-size: 18px"">B</b></span>
+
+          ","a","","",""
+"","","","","","html-keyboard-response","25","42629","0.0-2.5-1.5","null","<p style=""font-size: 70px"">+</p>","null","REPONSE SUJET","vid/TEST1.mp4,vid/TEST1.mp4","vid/TEST1.mp4"

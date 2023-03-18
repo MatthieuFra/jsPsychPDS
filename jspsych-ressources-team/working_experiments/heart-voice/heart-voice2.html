@@ -17,6 +17,32 @@
 </head>
 <body></body>
 <script>
+/*
+
+Code of the experiment of Nadia Guerrouaou.
+Inspired by Galvez-Pol et al's (2022) results describing our ability to depict HR on faces, we are investigating if this ability can be observed in voice and how the pitch could be a most relevant acoustical parameters in this matter, if true.
+
+2023/03/18
+
+AUTHOR: Matthieu Fraticelli / fraticelli.matthieu@hotmail.fr
+
+*/
+
+  /* _______________________________________________________________________________________
+PARAMETRES */
+
+  
+const VIDEOS = [
+  "vid/TEST1.mp4",
+  "vid/TEST1.mp4",
+  "vid/TEST1.mp4",
+  "vid/TEST1.mp4",
+  ];
+
+
+
+//__________________________________________________________________________________________
+
 
 // Initialize jsPsych
   
@@ -37,34 +63,12 @@ var jsPsych = initJsPsych({
 var timeline = [];
 
   
-// ADD CODE BELOW -------------------------------------------------------------------------------------------------------------
+//CODE BELOW -------------------------------------------------------------------------------------------------------------
 
-
-/*
-20230317 : 
-
-To add: 
-- The loop incrementing across all video pairs 
-- The data part filling with correct informations 
-- ISI with fixation cross
-- Clean everything up! 
-
-
-*/
-  /* _______________________________________________________________________________________
-PARAMETRES */
-
-  
-var videos = [
-  "vid/TEST1.mp4",
-  "vid/TEST1.mp4",
-  "vid/TEST1.mp4",
-  "vid/TEST1.mp4",
-  ];
 
 
 //creating of the pairs  
-var arrayElements = videos;
+var arrayElements = VIDEOS;
 
 
 const pairsOfArray = array => (
@@ -84,13 +88,13 @@ console.log(pairsArray)
 //preload sound and video     
 var preload = {
    type: jsPsychPreload,
-   video: videos,
+   video: VIDEOS,
   };
     
 timeline.push(preload);
  
   
-var numbVidsEval = videos.length
+var numbVidsEval = arrayElements.length
 console.log(`Number of videos is: ${numbVidsEval}`)
 
 var numbVideosEvalPairs = pairsArray.length
@@ -119,6 +123,7 @@ timeline.push(test)
   };*/
     
 
+ // The part that is going to display the videos, I'm using an HTMK keybord response to display both videos using <video> tag.
  var videoTask = {
         
         type: jsPsychHtmlKeyboardResponse,
@@ -195,14 +200,10 @@ timeline.push(test)
         
       };
 
-  //  timeline.push(videoTask);
 
 
-  var preloadBeforeTask = {
 
-  };
-
-
+// The loop of the video displayed, in order to watch them as many times as wanted and to respond afterwards.
   var loopVideoTask = {
     timeline: [videoTask],
     loop_function: function(){
@@ -267,8 +268,8 @@ timeline.push(test)
     },
   };
 
-  //timeline.push(loopVideoTask);
 
+  // ISI cross fixation between trials.
   var interTrial = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p style="font-size: 70px">+</p>`,
@@ -283,9 +284,11 @@ timeline.push(test)
     }
   };
 
+
   //to increment in the main loop
   var i = 0; 
   
+  // The main loop for the task, with the experimental routine, depending of the number of video pairs. 
   var loopTask = {
     timeline: [
       //preloadBeforeTask,
@@ -307,7 +310,6 @@ timeline.push(test)
   };
 
   timeline.push(loopTask)
-
 
   
 // END CODE ABOVE -------------------------------------------------------------------------------------------------------------
