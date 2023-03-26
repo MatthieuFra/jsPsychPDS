@@ -1,7 +1,8 @@
-videoShowed,videoChoosed
-"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4
-"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4
-"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4
-"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4
-"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4
-"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4
+id,date,age,sex,soundSystem,videoShowed,videoChoosed,resultRemarque
+86-YZL-679850382526,Sun Mar 26 2023 19:06:40 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4,
+86-YZL-679850382526,Sun Mar 26 2023 19:06:43 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4,
+86-YZL-679850382526,Sun Mar 26 2023 19:06:46 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4,
+86-YZL-679850382526,Sun Mar 26 2023 19:06:49 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4,
+86-YZL-679850382526,Sun Mar 26 2023 19:06:52 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4,
+86-YZL-679850382526,Sun Mar 26 2023 19:06:57 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,"vid/TEST1.mp4,vid/TEST1.mp4",vid/TEST1.mp4,
+86-YZL-679850382526,Sun Mar 26 2023 19:07:02 GMT+0200 (heure d’été d’Europe centrale),35.0,M,Casque,,,ffff
