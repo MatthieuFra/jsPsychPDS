@@ -670,6 +670,9 @@ var confidenceResponse = {
     stimulus: `<p style="font-size: 70px">+</p>`,
     choices: ["NO_KEYS"],
     trial_duration: 2000,
+    on_start: function(){
+      jsPsych.setProgressBar(0.85); // set progress bar to 85% full.
+    },
     data: function(){
       return {
         task: 'REPONSE SUJET',
