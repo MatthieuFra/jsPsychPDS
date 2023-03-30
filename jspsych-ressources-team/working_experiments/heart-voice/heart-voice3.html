@@ -133,6 +133,7 @@ console.log(`Number of videos pairs is: ${numbVideosEvalPairs}`)
  var age;
  var sex; 
  var soundSystem1;
+ var confidence;
 
 
 
@@ -626,6 +627,24 @@ var loopVideoTask = {
   };
 
 
+var confidenceResponse = {
+  type: jsPsychSurveyMultiChoice,
+  questions: [
+    {
+      prompt: "Quel niveau de confiance avez-vous dans votre réponse ?", 
+      name: 'confidence', 
+      options: ['Tout à fait confiant', '', '', 'Pas du tout confiant'], 
+      required: true
+    }, 
+  ],
+  on_finish: function(){
+    confidence = jsPsych.data.getLastTrialData().trials[0].response.confidence
+    console.log(`The subject confidence is ${confidence}`)
+    return confidence
+  },
+}; 
+
+
   // ISI cross fixation between trials.
   var interTrial = {
     type: jsPsychHtmlKeyboardResponse,
@@ -642,6 +661,7 @@ var loopVideoTask = {
         soundSystem: `${soundSystem1}`,
         videoShowed: `${pairsArray[i]}`,
         videoChoosed: `${choosedVideo}`,
+        confidence: `${confidence}`,
       }
     }
   };
@@ -683,6 +703,7 @@ var loopTraining = {
 timeline: [
   training,
   loopVideoTask,
+  confidenceResponse,
   endTraining
   ],
 loop_function: function(){
@@ -701,6 +722,7 @@ var loopTask = {
     timeline: [
       //preloadBeforeTask,
       loopVideoTask,
+      confidenceResponse,
       interTrial,
       ],
     loop_function: function(){
