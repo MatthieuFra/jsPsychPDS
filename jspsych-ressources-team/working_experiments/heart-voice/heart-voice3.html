@@ -76,12 +76,12 @@ const EMAIL = "example@mail.com";
 // Initialize jsPsych
   
 var jsPsych = initJsPsych({
-      //show_progress_bar: true,
+      show_progress_bar: true,
+      auto_update_progress_bar: false,
+      message_progress_bar: 'Progression expérience',
       on_finish: function() {
       //jsPsych.data.displayData(); 
         jsPsych.data.get().localSave('csv','mydata.csv');
-        show_progress_bar: true;
-       // message_progress_bar: 'Progression expérience'
        },
       on_trial_start: function() {
        },
