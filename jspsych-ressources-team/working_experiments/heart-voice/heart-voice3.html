@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PDS jsPsych Demo</title>
+  <title>Heart voice experiment</title>
 
   <!-- Load libraries -->
   <script src="../../../lib/jspsych-7.3.0/dist/jspsych.js"></script>
@@ -37,12 +37,9 @@ AUTHOR: Matthieu Fraticelli / fraticelli.matthieu@hotmail.fr
 
 TO DO : 
 
-- add confidence to new data cleaning
 - add g h below video
-- replace tests with experiments 
 - ajouter param in json
 - duplicate github osf 
-- progress par
 
 */
 
@@ -413,6 +410,10 @@ var welcome = {
        <p style="font-size:18px">Pour commencer, veuillez cliquer sur <i>Continuer</i>.</p>
   `,
       choices: ['Continuer'],
+      on_load: function() {
+      // Remove progress bar from screen
+      document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+      },
       on_start: function(){
         var IDLetter = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Y', 'Y', 'Z']
         var IDLetterChoose = jsPsych.randomization.shuffle(IDLetter).slice(0, 3).join('')
@@ -534,7 +535,7 @@ var instructions = {
     ],
     button_label_next: "Continuer",
     button_label_previous: "Retour",
-    show_clickable_nav: true
+    show_clickable_nav: true,
 };
 
 timeline.push(instructions); 
@@ -567,6 +568,12 @@ var videoTask = {
         /*button_html:[
           '<button class="jspsych-btn" style = "position:absolute; left:450px; top: 680px">%choice%</button>', '<button class="jspsych-btn" style = "position:absolute; right:450px; top: 680px">%choice%</button>'], */
         prompt: ``,
+        on_load: function() {
+          if(isTraining === false){
+            // Remove progress bar from screen
+            document.getElementById("jspsych-progressbar-container").style.visibility = "visible";
+          }  
+        },
         on_start: function(){
            },
         on_finish: function(){
@@ -656,6 +663,12 @@ var confidenceResponse = {
       required: true
     }, 
   ],
+  on_load: function() {
+       if(isTraining === false){
+            // Remove progress bar from screen
+            document.getElementById("jspsych-progressbar-container").style.visibility = "visible";
+          }  
+        },
   on_finish: function(){
     confidence = jsPsych.data.getLastTrialData().trials[0].response.confidence
     console.log(`The subject confidence is ${confidence}`)
@@ -670,8 +683,15 @@ var confidenceResponse = {
     stimulus: `<p style="font-size: 70px">+</p>`,
     choices: ["NO_KEYS"],
     trial_duration: 2000,
+    on_load: function() {
+        if(isTraining === false){
+            // Remove progress bar from screen
+            document.getElementById("jspsych-progressbar-container").style.visibility = "visible";
+          }  
+        },
     on_start: function(){
-      jsPsych.setProgressBar(0.85); // set progress bar to 85% full.
+      var curr_progress_bar_value = jsPsych.getProgressBarCompleted();
+      jsPsych.setProgressBar(curr_progress_bar_value + (1/numbVideosEvalPairs));
     },
     data: function(){
       return {
@@ -701,6 +721,10 @@ var training = {
         `
       },
       choices: ["Commencer l'entraînement"],
+      on_load: function() {
+      // Remove progress bar from screen
+        document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+      },
     };
 
 
@@ -718,6 +742,11 @@ var endTraining = {
         isTraining = false
         console.log(`END TRAINING ${isTraining}`)
         return isTraining
+      },
+        on_load: function() {
+      // Remove progress bar from screen
+        document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+     
       }
     };
 
@@ -775,7 +804,11 @@ var freeText = {
     return resultRemarque
   },
   button_label: "Continuer",
-}
+  on_load: function() {
+      // Remove progress bar from screen
+        document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+      },
+};
 
 timeline.push(freeText);
 
@@ -800,6 +833,10 @@ var dataFreeText = {
       }, 
       choices: "NO_KEYS",
       trial_duration: 10,
+      on_load: function() {
+      // Remove progress bar from screen
+        document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+      },
     };
     
 timeline.push(dataFreeText);
@@ -809,6 +846,10 @@ var finexp2 = {
   stimulus: `<p style="font-size:22px; color:black;">Contact :</p><hr>
                 <p>Si besoin vous pouvez contacter l'expérimentateur à l'adresse <b>${EMAIL}</b></p>`,
   choices: ["Continuer"],
+  on_load: function() {
+      // Remove progress bar from screen
+        document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+      },
     };
 
 timeline.push(finexp2);
@@ -819,6 +860,10 @@ var finexp = {
   stimulus: `<p style="font-size:22px; color:black;">Merci d'avoir participé !</p><hr>
                 `,
   choices: ["Terminer"],
+  on_load: function() {
+      // Remove progress bar from screen
+        document.getElementById("jspsych-progressbar-container").style.visibility = "hidden";
+      },
     };
     
 timeline.push(finexp);
